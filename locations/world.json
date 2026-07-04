@@ -1,0 +1,7171 @@
+[
+  {
+    "name": "Midgar (Opening)",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Beginner's Hall - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300161"
+          ]
+        ]
+      },
+      {
+        "name": "Beginner's Hall - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300160"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Sector 4 Plate - Tent",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300221"
+          ]
+        ]
+      },
+      {
+        "name": "No. 1 Reactor - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200001"
+          ]
+        ]
+      },
+      {
+        "name": "No.1 Reactor - Phoenix Down",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300183"
+          ]
+        ]
+      },
+      {
+        "name": "No.1 Reactor - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300184"
+          ]
+        ]
+      },
+      {
+        "name": "No.5 Reactor - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300235"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8 - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200014"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200003"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200000"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200004"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200007"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200002"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200005"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200006"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2005,
+        "y": 1161,
+        "size": 24
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300161"
+      ],
+      [
+        "$ff7_pool_300160"
+      ],
+      [
+        "$ff7_pool_300221"
+      ],
+      [
+        "$ff7_pool_200001"
+      ],
+      [
+        "$ff7_pool_300183"
+      ],
+      [
+        "$ff7_pool_300184"
+      ],
+      [
+        "$ff7_pool_300235"
+      ],
+      [
+        "$ff7_pool_200014"
+      ],
+      [
+        "$ff7_pool_200003"
+      ],
+      [
+        "$ff7_pool_200000"
+      ],
+      [
+        "$ff7_pool_200004"
+      ],
+      [
+        "$ff7_pool_200007"
+      ],
+      [
+        "$ff7_pool_200002"
+      ],
+      [
+        "$ff7_pool_200005"
+      ],
+      [
+        "$ff7_pool_200006"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar (Fields)",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "4th Street Plate Int. - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300219"
+          ]
+        ]
+      },
+      {
+        "name": "4th Street Plate Int. - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300220"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar, Sector 8 - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200357"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar, Sector 8 - Mystile",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200355"
+          ]
+        ]
+      },
+      {
+        "name": "Platform - Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300156"
+          ]
+        ]
+      },
+      {
+        "name": "Platform - Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300390"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Aegis Armlet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200341"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Elixir #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200348"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Elixir #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200349"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Max Ray",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200340"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200345"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 8, Underground - Starlight Phone",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200347"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2005,
+        "y": 1194,
+        "size": 24
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300219"
+      ],
+      [
+        "$ff7_pool_300220"
+      ],
+      [
+        "$ff7_pool_200357"
+      ],
+      [
+        "$ff7_pool_200355"
+      ],
+      [
+        "$ff7_pool_300156"
+      ],
+      [
+        "$ff7_pool_300390"
+      ],
+      [
+        "$ff7_pool_200341"
+      ],
+      [
+        "$ff7_pool_200348"
+      ],
+      [
+        "$ff7_pool_200349"
+      ],
+      [
+        "$ff7_pool_200340"
+      ],
+      [
+        "$ff7_pool_200345"
+      ],
+      [
+        "$ff7_pool_200347"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Aerith's House - Cover",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200017"
+          ]
+        ]
+      },
+      {
+        "name": "Aerith's House - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200016"
+          ]
+        ]
+      },
+      {
+        "name": "Corneo Hall,2f. - Hyper",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300297"
+          ]
+        ]
+      },
+      {
+        "name": "Corneo Hall,2f. - Phoenix Down",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300029"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Batteries",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310036"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Found hidden draw",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310046"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Bikini briefs",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310066"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Blonde Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310026"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310020"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Cotton Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310027"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Deodorant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310031"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Diamond Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310035"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Digestive",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310032"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Disinfectant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310030"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Dyed Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310025"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Flower Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310021"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Glass Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310033"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Lingerie",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310067"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Member's Card",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310010"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Pharmacy Coupon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310023"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Ruby Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310034"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Satin Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310028"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Sexy Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310022"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Silk Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310029"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310024"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Phoenix Down",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310000"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Stole boys 5 gil",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310047"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Turtle Paradise Flyer #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310058"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 House 2f. - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300163"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320015"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320016"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320017"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320018"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320019"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320011"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320012"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320013"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 5 Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320014"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 6 park - Sense",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200019"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Drug Store - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320008"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Drug Store - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320009"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Drug Store - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320010"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320004"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320005"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320006"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320007"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320026"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320027"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320028"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320000"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320001"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320002"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320003"
+          ]
+        ]
+      },
+      {
+        "name": "Sewer - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300031"
+          ]
+        ]
+      },
+      {
+        "name": "Sewer - Steal",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300032"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320029"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320030"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320031"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320032"
+          ]
+        ]
+      },
+      {
+        "name": "Torture Room - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300030"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320025"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Item Store - Premium Heart",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200013"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320024"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320020"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320021"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320022"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320023"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon Store - Sneak Glove",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200012"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2037,
+        "y": 1162,
+        "size": 28
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300503"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200017"
+      ],
+      [
+        "$ff7_pool_200016"
+      ],
+      [
+        "$ff7_pool_300297"
+      ],
+      [
+        "$ff7_pool_300029"
+      ],
+      [
+        "$ff7_pool_310036"
+      ],
+      [
+        "$ff7_pool_310046"
+      ],
+      [
+        "$ff7_pool_310066"
+      ],
+      [
+        "$ff7_pool_310026"
+      ],
+      [
+        "$ff7_pool_310020"
+      ],
+      [
+        "$ff7_pool_310027"
+      ],
+      [
+        "$ff7_pool_310031"
+      ],
+      [
+        "$ff7_pool_310035"
+      ],
+      [
+        "$ff7_pool_310032"
+      ],
+      [
+        "$ff7_pool_310030"
+      ],
+      [
+        "$ff7_pool_310025"
+      ],
+      [
+        "$ff7_pool_310021"
+      ],
+      [
+        "$ff7_pool_310033"
+      ],
+      [
+        "$ff7_pool_310067"
+      ],
+      [
+        "$ff7_pool_310010"
+      ],
+      [
+        "$ff7_pool_310023"
+      ],
+      [
+        "$ff7_pool_310034"
+      ],
+      [
+        "$ff7_pool_310028"
+      ],
+      [
+        "$ff7_pool_310022"
+      ],
+      [
+        "$ff7_pool_310029"
+      ],
+      [
+        "$ff7_pool_310024"
+      ],
+      [
+        "$ff7_pool_310000"
+      ],
+      [
+        "$ff7_pool_310047"
+      ],
+      [
+        "$ff7_pool_310058"
+      ],
+      [
+        "$ff7_pool_300163"
+      ],
+      [
+        "$ff7_pool_320015"
+      ],
+      [
+        "$ff7_pool_320016"
+      ],
+      [
+        "$ff7_pool_320017"
+      ],
+      [
+        "$ff7_pool_320018"
+      ],
+      [
+        "$ff7_pool_320019"
+      ],
+      [
+        "$ff7_pool_320011"
+      ],
+      [
+        "$ff7_pool_320012"
+      ],
+      [
+        "$ff7_pool_320013"
+      ],
+      [
+        "$ff7_pool_320014"
+      ],
+      [
+        "$ff7_pool_200019"
+      ],
+      [
+        "$ff7_pool_320008"
+      ],
+      [
+        "$ff7_pool_320009"
+      ],
+      [
+        "$ff7_pool_320010"
+      ],
+      [
+        "$ff7_pool_320004"
+      ],
+      [
+        "$ff7_pool_320005"
+      ],
+      [
+        "$ff7_pool_320006"
+      ],
+      [
+        "$ff7_pool_320007"
+      ],
+      [
+        "$ff7_pool_320026"
+      ],
+      [
+        "$ff7_pool_320027"
+      ],
+      [
+        "$ff7_pool_320028"
+      ],
+      [
+        "$ff7_pool_320000"
+      ],
+      [
+        "$ff7_pool_320001"
+      ],
+      [
+        "$ff7_pool_320002"
+      ],
+      [
+        "$ff7_pool_320003"
+      ],
+      [
+        "$ff7_pool_300031"
+      ],
+      [
+        "$ff7_pool_300032"
+      ],
+      [
+        "$ff7_pool_320029"
+      ],
+      [
+        "$ff7_pool_320030"
+      ],
+      [
+        "$ff7_pool_320031"
+      ],
+      [
+        "$ff7_pool_320032"
+      ],
+      [
+        "$ff7_pool_300030"
+      ],
+      [
+        "$ff7_pool_320025"
+      ],
+      [
+        "$ff7_pool_200013"
+      ],
+      [
+        "$ff7_pool_320024"
+      ],
+      [
+        "$ff7_pool_320020"
+      ],
+      [
+        "$ff7_pool_320021"
+      ],
+      [
+        "$ff7_pool_320022"
+      ],
+      [
+        "$ff7_pool_320023"
+      ],
+      [
+        "$ff7_pool_200012"
+      ]
+    ]
+  },
+  {
+    "name": "Kalm",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Kalm - KeyItem: PHS",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310014"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm - Show Earth Harp 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310092"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100069"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 1f - Ether #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200287"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 1f - Ether #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200290"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300055"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Guard Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200289"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Show Desert Rose",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200304"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100056"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Show Earth Harp 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200301"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100069"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Show Earth Harp 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200302"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100069"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm House: 2f - Show Guide Book",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200300"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100112"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Inn - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200293"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320037"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320038"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320039"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320040"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Tower - Peacemaker",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200285"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320033"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320034"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320035"
+          ]
+        ]
+      },
+      {
+        "name": "Kalm Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320036"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2241,
+        "y": 1112,
+        "size": 28
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310014"
+      ],
+      [
+        "$ff7_pool_310092"
+      ],
+      [
+        "$ff7_pool_200287"
+      ],
+      [
+        "$ff7_pool_200290"
+      ],
+      [
+        "$ff7_pool_300055"
+      ],
+      [
+        "$ff7_pool_200289"
+      ],
+      [
+        "$ff7_pool_200304"
+      ],
+      [
+        "$ff7_pool_200301"
+      ],
+      [
+        "$ff7_pool_200302"
+      ],
+      [
+        "$ff7_pool_200300"
+      ],
+      [
+        "$ff7_pool_200293"
+      ],
+      [
+        "$ff7_pool_320037"
+      ],
+      [
+        "$ff7_pool_320038"
+      ],
+      [
+        "$ff7_pool_320039"
+      ],
+      [
+        "$ff7_pool_320040"
+      ],
+      [
+        "$ff7_pool_200285"
+      ],
+      [
+        "$ff7_pool_320033"
+      ],
+      [
+        "$ff7_pool_320034"
+      ],
+      [
+        "$ff7_pool_320035"
+      ],
+      [
+        "$ff7_pool_320036"
+      ]
+    ]
+  },
+  {
+    "name": "Mythril Mines",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Mythril Mine - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300199"
+          ]
+        ]
+      },
+      {
+        "name": "Mythril Mine - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300196"
+          ]
+        ]
+      },
+      {
+        "name": "Mythril Mine - Hi-Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300198"
+          ]
+        ]
+      },
+      {
+        "name": "Mythril Mine - Long Range",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300197"
+          ]
+        ]
+      },
+      {
+        "name": "Mythril Mine - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200298"
+          ]
+        ]
+      },
+      {
+        "name": "Mythril Mine - Tent",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200299"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2342,
+        "y": 1458,
+        "size": 20
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300199"
+      ],
+      [
+        "$ff7_pool_300196"
+      ],
+      [
+        "$ff7_pool_300198"
+      ],
+      [
+        "$ff7_pool_300197"
+      ],
+      [
+        "$ff7_pool_200298"
+      ],
+      [
+        "$ff7_pool_200299"
+      ]
+    ]
+  },
+  {
+    "name": "Chocobo Farm",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Chocobo farm - Choco⁄Mog",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200018"
+          ]
+        ]
+      },
+      {
+        "name": "Chocobo farm - Chocobo Lure",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300062"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2650,
+        "y": 1322,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200018"
+      ],
+      [
+        "$ff7_pool_300062"
+      ]
+    ]
+  },
+  {
+    "name": "Fort Condor",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Fort Condor - KeyItem: Huge Materia: Fort Condor",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310011"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor - Phoenix",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310037"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor - Super Ball",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310038"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320041"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320042"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320043"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320044"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320045"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Watch Room - Magic Comb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300041"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Watch Room - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300038"
+          ]
+        ]
+      },
+      {
+        "name": "Fort Condor Watch Room - Peace Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300040"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2232,
+        "y": 1616,
+        "size": 24
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310011"
+      ],
+      [
+        "$ff7_pool_310037"
+      ],
+      [
+        "$ff7_pool_310038"
+      ],
+      [
+        "$ff7_pool_320041"
+      ],
+      [
+        "$ff7_pool_320042"
+      ],
+      [
+        "$ff7_pool_320043"
+      ],
+      [
+        "$ff7_pool_320044"
+      ],
+      [
+        "$ff7_pool_320045"
+      ],
+      [
+        "$ff7_pool_300041"
+      ],
+      [
+        "$ff7_pool_300038"
+      ],
+      [
+        "$ff7_pool_300040"
+      ]
+    ]
+  },
+  {
+    "name": "Junon Lower",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Barracks - 1⁄35 soldier #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200335"
+          ]
+        ]
+      },
+      {
+        "name": "Barracks - Speed Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200334"
+          ]
+        ]
+      },
+      {
+        "name": "Junon Training Hall - Enemy Skill",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300104"
+          ]
+        ]
+      },
+      {
+        "name": "Junon Training Hall - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300100"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320046"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320047"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320048"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320049"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon 2 - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320050"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon 2 - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320051"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon 2 - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320052"
+          ]
+        ]
+      },
+      {
+        "name": "Lower Junon Weapon 2 - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320053"
+          ]
+        ]
+      },
+      {
+        "name": "Under Junon - Shiva",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300250"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1888,
+        "y": 1443,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300504"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200335"
+      ],
+      [
+        "$ff7_pool_200334"
+      ],
+      [
+        "$ff7_pool_300104"
+      ],
+      [
+        "$ff7_pool_300100"
+      ],
+      [
+        "$ff7_pool_320046"
+      ],
+      [
+        "$ff7_pool_320047"
+      ],
+      [
+        "$ff7_pool_320048"
+      ],
+      [
+        "$ff7_pool_320049"
+      ],
+      [
+        "$ff7_pool_320050"
+      ],
+      [
+        "$ff7_pool_320051"
+      ],
+      [
+        "$ff7_pool_320052"
+      ],
+      [
+        "$ff7_pool_320053"
+      ],
+      [
+        "$ff7_pool_300250"
+      ]
+    ]
+  },
+  {
+    "name": "Junon Upper",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Barracks - 1⁄35 soldier #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200333"
+          ]
+        ]
+      },
+      {
+        "name": "Barracks - Guard Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200331"
+          ]
+        ]
+      },
+      {
+        "name": "Barracks - Luck Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200332"
+          ]
+        ]
+      },
+      {
+        "name": "Barracks - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200329"
+          ]
+        ]
+      },
+      {
+        "name": "Barracks - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200330"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320065"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320066"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320067"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320068"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Accessory - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320060"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Accessory - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320061"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Accessory - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320062"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Accessory - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320063"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320054"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320055"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Materia 2 - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320064"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320056"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320057"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320058"
+          ]
+        ]
+      },
+      {
+        "name": "Upper Junon Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320059"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1890,
+        "y": 1402,
+        "size": 28
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300504"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200333"
+      ],
+      [
+        "$ff7_pool_200331"
+      ],
+      [
+        "$ff7_pool_200332"
+      ],
+      [
+        "$ff7_pool_200329"
+      ],
+      [
+        "$ff7_pool_200330"
+      ],
+      [
+        "$ff7_pool_320065"
+      ],
+      [
+        "$ff7_pool_320066"
+      ],
+      [
+        "$ff7_pool_320067"
+      ],
+      [
+        "$ff7_pool_320068"
+      ],
+      [
+        "$ff7_pool_320060"
+      ],
+      [
+        "$ff7_pool_320061"
+      ],
+      [
+        "$ff7_pool_320062"
+      ],
+      [
+        "$ff7_pool_320063"
+      ],
+      [
+        "$ff7_pool_320054"
+      ],
+      [
+        "$ff7_pool_320055"
+      ],
+      [
+        "$ff7_pool_320064"
+      ],
+      [
+        "$ff7_pool_320056"
+      ],
+      [
+        "$ff7_pool_320057"
+      ],
+      [
+        "$ff7_pool_320058"
+      ],
+      [
+        "$ff7_pool_320059"
+      ]
+    ]
+  },
+  {
+    "name": "Corel",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Corel - KeyItem: Huge Materia: Corel",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310017"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel - Catastrophe",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300174"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300172"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel - Ultima #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300175"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel General - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320083"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel General - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320084"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel General - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320085"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel General - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320086"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320079"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320080"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320081"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320082"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320075"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320076"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320077"
+          ]
+        ]
+      },
+      {
+        "name": "North Corel Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320078"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1164,
+        "y": 1212,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310017"
+      ],
+      [
+        "$ff7_pool_300174"
+      ],
+      [
+        "$ff7_pool_300172"
+      ],
+      [
+        "$ff7_pool_300175"
+      ],
+      [
+        "$ff7_pool_320083"
+      ],
+      [
+        "$ff7_pool_320084"
+      ],
+      [
+        "$ff7_pool_320085"
+      ],
+      [
+        "$ff7_pool_320086"
+      ],
+      [
+        "$ff7_pool_320079"
+      ],
+      [
+        "$ff7_pool_320080"
+      ],
+      [
+        "$ff7_pool_320081"
+      ],
+      [
+        "$ff7_pool_320082"
+      ],
+      [
+        "$ff7_pool_320075"
+      ],
+      [
+        "$ff7_pool_320076"
+      ],
+      [
+        "$ff7_pool_320077"
+      ],
+      [
+        "$ff7_pool_320078"
+      ]
+    ]
+  },
+  {
+    "name": "Gold Saucer Area",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Arena Lobby - Omnislash",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300313"
+          ]
+        ]
+      },
+      {
+        "name": "Arena Lobby - W-Summon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300321"
+          ]
+        ]
+      },
+      {
+        "name": "Battle Square - Sprint Shoes",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300322"
+          ]
+        ]
+      },
+      {
+        "name": "Ghost Hotel - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300068"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Area - 30Gp from Mog's House",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310068"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Area - KeyItem: Gold Ticket",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310045"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Area - KeyItem: Keystone",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310015"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Area - Rewards From Ester",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310069"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Area - Turtle Paradise Flyer #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310060"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Rollercoaster - Flayer",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300090"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Rollercoaster - Umbrella",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300089"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300370"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Cauldron",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300369"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Crystal Bangle",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300364"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Dragon Fang",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300367"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Dragon Scales",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300368"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - EXP Plus",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200125"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Gil Plus",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300361"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Ink",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300365"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Safety Bit",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300363"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - Speed Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300362"
+          ]
+        ]
+      },
+      {
+        "name": "Gold Saucer Wonder Square - T⁄S Bomb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300366"
+          ]
+        ]
+      },
+      {
+        "name": "Waiting Room - Ramuh",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300346"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1288,
+        "y": 1508,
+        "size": 28
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502,item_100537"
+      ],
+      [
+        "item_300505,item_100537"
+      ],
+      [
+        "item_300506,item_100537"
+      ],
+      [
+        "item_300507,item_100537"
+      ],
+      [
+        "item_300501,item_100537"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300313"
+      ],
+      [
+        "$ff7_pool_300321"
+      ],
+      [
+        "$ff7_pool_300322"
+      ],
+      [
+        "$ff7_pool_300068"
+      ],
+      [
+        "$ff7_pool_310068"
+      ],
+      [
+        "$ff7_pool_310045"
+      ],
+      [
+        "$ff7_pool_310015"
+      ],
+      [
+        "$ff7_pool_310069"
+      ],
+      [
+        "$ff7_pool_310060"
+      ],
+      [
+        "$ff7_pool_300090"
+      ],
+      [
+        "$ff7_pool_300089"
+      ],
+      [
+        "$ff7_pool_300370"
+      ],
+      [
+        "$ff7_pool_300369"
+      ],
+      [
+        "$ff7_pool_300364"
+      ],
+      [
+        "$ff7_pool_300367"
+      ],
+      [
+        "$ff7_pool_300368"
+      ],
+      [
+        "$ff7_pool_200125"
+      ],
+      [
+        "$ff7_pool_300361"
+      ],
+      [
+        "$ff7_pool_300365"
+      ],
+      [
+        "$ff7_pool_300363"
+      ],
+      [
+        "$ff7_pool_300362"
+      ],
+      [
+        "$ff7_pool_300366"
+      ],
+      [
+        "$ff7_pool_300346"
+      ]
+    ]
+  },
+  {
+    "name": "Gongaga",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Gongaga Accessory - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320089"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Inn - X-Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300077"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320088"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Jungle - Deathblow",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300079"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Mayor's Home - White M-phone",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300080"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Reactor - Titan",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300078"
+          ]
+        ]
+      },
+      {
+        "name": "Gongaga Weapon - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320087"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1204,
+        "y": 1740,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320089"
+      ],
+      [
+        "$ff7_pool_300077"
+      ],
+      [
+        "$ff7_pool_320088"
+      ],
+      [
+        "$ff7_pool_300079"
+      ],
+      [
+        "$ff7_pool_300080"
+      ],
+      [
+        "$ff7_pool_300078"
+      ],
+      [
+        "$ff7_pool_320087"
+      ]
+    ]
+  },
+  {
+    "name": "Cosmo Canyon",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Cosmo Canyon General - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320092"
+          ]
+        ]
+      },
+      {
+        "name": "Cosmo Canyon Item Store - Elixir & Magic Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300047"
+          ]
+        ]
+      },
+      {
+        "name": "Cosmo Canyon Item Store - Full Cure",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300046"
+          ]
+        ]
+      },
+      {
+        "name": "Cosmo Canyon Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320093"
+          ]
+        ]
+      },
+      {
+        "name": "Cosmo Canyon Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320090"
+          ]
+        ]
+      },
+      {
+        "name": "Cosmo Canyon Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320091"
+          ]
+        ]
+      },
+      {
+        "name": "Shildra Inn - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300043"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 916,
+        "y": 1628,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320092"
+      ],
+      [
+        "$ff7_pool_300047"
+      ],
+      [
+        "$ff7_pool_300046"
+      ],
+      [
+        "$ff7_pool_320093"
+      ],
+      [
+        "$ff7_pool_320090"
+      ],
+      [
+        "$ff7_pool_320091"
+      ],
+      [
+        "$ff7_pool_300043"
+      ]
+    ]
+  },
+  {
+    "name": "Nibelheim",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Nibelheim - Elemental",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310072"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim - KeyItem: Basement Key",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310043"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim - Mind Plus",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310044"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim - Played piano during flashback",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310071"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim General - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320094"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim General - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320095"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim General - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320096"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim General - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320097"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim House - Luck Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300193"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim Inn - Luck Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300177"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim Item Store - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300182"
+          ]
+        ]
+      },
+      {
+        "name": "Nibelheim Tifa's House - Final Heaven",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310070"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_300601"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Mansion, 1f. - Silver M-phone",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300229"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Mansion, 1f. - Twin Viper",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300228"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Mansion, 2f. - Enemy Launcher",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300230"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Mansion, 2f. - Magic Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300232"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Mansion, 2f. - Odin",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300231"
+          ]
+        ]
+      },
+      {
+        "name": "Tifa's House - Platinum Fist",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300180"
+          ]
+        ]
+      },
+      {
+        "name": "Tifa's House - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300179"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 980,
+        "y": 1304,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310072"
+      ],
+      [
+        "$ff7_pool_310043"
+      ],
+      [
+        "$ff7_pool_310044"
+      ],
+      [
+        "$ff7_pool_310071"
+      ],
+      [
+        "$ff7_pool_320094"
+      ],
+      [
+        "$ff7_pool_320095"
+      ],
+      [
+        "$ff7_pool_320096"
+      ],
+      [
+        "$ff7_pool_320097"
+      ],
+      [
+        "$ff7_pool_300193"
+      ],
+      [
+        "$ff7_pool_300177"
+      ],
+      [
+        "$ff7_pool_300182"
+      ],
+      [
+        "$ff7_pool_310070"
+      ],
+      [
+        "$ff7_pool_300229"
+      ],
+      [
+        "$ff7_pool_300228"
+      ],
+      [
+        "$ff7_pool_300230"
+      ],
+      [
+        "$ff7_pool_300232"
+      ],
+      [
+        "$ff7_pool_300231"
+      ],
+      [
+        "$ff7_pool_300180"
+      ],
+      [
+        "$ff7_pool_300179"
+      ]
+    ]
+  },
+  {
+    "name": "Mt. Nibel",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Mt. Nibel - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300187"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel - Counter",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310080"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel - Plus Barrette",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300170"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel - Powersoul",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300186"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel - Rune Blade",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300169"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel Cave - Elemental",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300190"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel Cave - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300189"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Nibel Cave - Sniper CR",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300191"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 992,
+        "y": 1200,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300187"
+      ],
+      [
+        "$ff7_pool_310080"
+      ],
+      [
+        "$ff7_pool_300170"
+      ],
+      [
+        "$ff7_pool_300186"
+      ],
+      [
+        "$ff7_pool_300169"
+      ],
+      [
+        "$ff7_pool_300190"
+      ],
+      [
+        "$ff7_pool_300189"
+      ],
+      [
+        "$ff7_pool_300191"
+      ]
+    ]
+  },
+  {
+    "name": "Rocket Town",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Materia Room - KeyItem: Huge Materia: Rocket",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200351"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town - Drill Arm",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200280"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200281"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town - Venus Gospel",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300209"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town - Yoshiyuki",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300208"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320102"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Item Store - Guard Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200292"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320098"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320099"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320100"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320101"
+          ]
+        ]
+      },
+      {
+        "name": "Rocket Town Weapons Store - Fourth Bracelet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200291"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 872,
+        "y": 1172,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200351"
+      ],
+      [
+        "$ff7_pool_200280"
+      ],
+      [
+        "$ff7_pool_200281"
+      ],
+      [
+        "$ff7_pool_300209"
+      ],
+      [
+        "$ff7_pool_300208"
+      ],
+      [
+        "$ff7_pool_320102"
+      ],
+      [
+        "$ff7_pool_200292"
+      ],
+      [
+        "$ff7_pool_320098"
+      ],
+      [
+        "$ff7_pool_320099"
+      ],
+      [
+        "$ff7_pool_320100"
+      ],
+      [
+        "$ff7_pool_320101"
+      ],
+      [
+        "$ff7_pool_200291"
+      ]
+    ]
+  },
+  {
+    "name": "Wutai",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Hidden Passage - Hairpin",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300371"
+          ]
+        ]
+      },
+      {
+        "name": "Hidden Passage - HP Absorb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300082"
+          ]
+        ]
+      },
+      {
+        "name": "Hidden Passage - Magic Shuriken",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300081"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai - Rewarded for viewing all Turtle Paradise Flyers",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310065"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320104"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai Weapon - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320103"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai, Da-chao Statue - Dragoon Lance",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200338"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100539"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai, Da-chao Statue - Oritsuru",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200346"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100539"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai, Da-chao Statue - Steal-As-Well",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200337"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_100539"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai, Godo's Pagoda - Leviathan",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200344"
+          ]
+        ]
+      },
+      {
+        "name": "Yuffie's House - MP Absorb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300265"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 344,
+        "y": 880,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300371"
+      ],
+      [
+        "$ff7_pool_300082"
+      ],
+      [
+        "$ff7_pool_300081"
+      ],
+      [
+        "$ff7_pool_310065"
+      ],
+      [
+        "$ff7_pool_320104"
+      ],
+      [
+        "$ff7_pool_320103"
+      ],
+      [
+        "$ff7_pool_200338"
+      ],
+      [
+        "$ff7_pool_200346"
+      ],
+      [
+        "$ff7_pool_200337"
+      ],
+      [
+        "$ff7_pool_200344"
+      ],
+      [
+        "$ff7_pool_300265"
+      ]
+    ]
+  },
+  {
+    "name": "Temple of the Ancients",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Temple of the Ancients - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320105"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320106"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1848,
+        "y": 1744,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320105"
+      ],
+      [
+        "$ff7_pool_320106"
+      ]
+    ]
+  },
+  {
+    "name": "Forgotten Capital",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Forgotten Capital - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300153"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten Capital - Enemy Skill",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200286"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten Capital - Guard Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200266"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten Capital - Magic Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200267"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten City - Aurora Armlet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300155"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten City - Comet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300152"
+          ]
+        ]
+      },
+      {
+        "name": "Forgotten City - Viper Halberd",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300218"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1752,
+        "y": 744,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505,item_100527"
+      ],
+      [
+        "item_300506,item_100527"
+      ],
+      [
+        "item_300507,item_100527"
+      ],
+      [
+        "item_300501,item_100527"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300153"
+      ],
+      [
+        "$ff7_pool_200286"
+      ],
+      [
+        "$ff7_pool_200266"
+      ],
+      [
+        "$ff7_pool_200267"
+      ],
+      [
+        "$ff7_pool_300155"
+      ],
+      [
+        "$ff7_pool_300152"
+      ],
+      [
+        "$ff7_pool_300218"
+      ]
+    ]
+  },
+  {
+    "name": "Great Glacier",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Cave - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300084"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier - Added Cut",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300165"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier - Alexander",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310039"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200011"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200009"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier Cave - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200008"
+          ]
+        ]
+      },
+      {
+        "name": "Great Glacier Cave - Safety Bit",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200010"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1476,
+        "y": 516,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505,item_100546,item_100540"
+      ],
+      [
+        "item_300506,item_100546,item_100540"
+      ],
+      [
+        "item_300507,item_100546,item_100540"
+      ],
+      [
+        "item_300501,item_100546,item_100540"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300084"
+      ],
+      [
+        "$ff7_pool_300165"
+      ],
+      [
+        "$ff7_pool_310039"
+      ],
+      [
+        "$ff7_pool_200011"
+      ],
+      [
+        "$ff7_pool_200009"
+      ],
+      [
+        "$ff7_pool_200008"
+      ],
+      [
+        "$ff7_pool_200010"
+      ]
+    ]
+  },
+  {
+    "name": "Icicle Inn",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Gast's House - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300239"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn - Hero Drink",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300240"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn - KeyItem: Glacier Map",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310019"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn - KeyItem: Snowboard",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310018"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn - Vaccine",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300241"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn - X-Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300237"
+          ]
+        ]
+      },
+      {
+        "name": "Icicle Inn Weapon - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320107"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1384,
+        "y": 684,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300239"
+      ],
+      [
+        "$ff7_pool_300240"
+      ],
+      [
+        "$ff7_pool_310019"
+      ],
+      [
+        "$ff7_pool_310018"
+      ],
+      [
+        "$ff7_pool_300241"
+      ],
+      [
+        "$ff7_pool_300237"
+      ],
+      [
+        "$ff7_pool_320107"
+      ]
+    ]
+  },
+  {
+    "name": "Northern Cave",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Bottom of Northern Cave - Luck Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300151"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Elixir #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200026"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Elixir #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300117"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Elixir #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300119"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Guard Source #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200294"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Guard Source #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200360"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Guard Source #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300114"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Hero Drink #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200363"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Hero Drink #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200370"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - HP Absorb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200297"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Imperial Guard",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200368"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Magic Counter",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300129"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Magic Source #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200288"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Magic Source #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200361"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Mega All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300133"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Megalixir #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200358"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Megalixir #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300124"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Mind Source #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200369"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Mind Source #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300115"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Mystile",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300120"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Power Source #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200359"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Power Source #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300116"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Remedy #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200362"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Remedy #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300128"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Save Crystal",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300113"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Shield",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200365"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Speed Source #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300121"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Speed Source #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300130"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Tetra Elemental",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300122"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Turbo Ether #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200028"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Turbo Ether #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300131"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Vaccine #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200029"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - Vaccine #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200364"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - W-Magic #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200367"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - X-Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200027"
+          ]
+        ]
+      },
+      {
+        "name": "Inside Northern Cave - X-Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300132"
+          ]
+        ]
+      },
+      {
+        "name": "Northern Cave - Counter",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310096"
+          ]
+        ]
+      },
+      {
+        "name": "Northern Cave - Megalixir #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310091"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1420,
+        "y": 408,
+        "size": 28
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300501,item_300600,item_300601,item_300602,item_300603,item_300604,item_300605,item_100520,item_100521,item_100522,item_100523"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300151"
+      ],
+      [
+        "$ff7_pool_200026"
+      ],
+      [
+        "$ff7_pool_300117"
+      ],
+      [
+        "$ff7_pool_300119"
+      ],
+      [
+        "$ff7_pool_200294"
+      ],
+      [
+        "$ff7_pool_200360"
+      ],
+      [
+        "$ff7_pool_300114"
+      ],
+      [
+        "$ff7_pool_200363"
+      ],
+      [
+        "$ff7_pool_200370"
+      ],
+      [
+        "$ff7_pool_200297"
+      ],
+      [
+        "$ff7_pool_200368"
+      ],
+      [
+        "$ff7_pool_300129"
+      ],
+      [
+        "$ff7_pool_200288"
+      ],
+      [
+        "$ff7_pool_200361"
+      ],
+      [
+        "$ff7_pool_300133"
+      ],
+      [
+        "$ff7_pool_200358"
+      ],
+      [
+        "$ff7_pool_300124"
+      ],
+      [
+        "$ff7_pool_200369"
+      ],
+      [
+        "$ff7_pool_300115"
+      ],
+      [
+        "$ff7_pool_300120"
+      ],
+      [
+        "$ff7_pool_200359"
+      ],
+      [
+        "$ff7_pool_300116"
+      ],
+      [
+        "$ff7_pool_200362"
+      ],
+      [
+        "$ff7_pool_300128"
+      ],
+      [
+        "$ff7_pool_300113"
+      ],
+      [
+        "$ff7_pool_200365"
+      ],
+      [
+        "$ff7_pool_300121"
+      ],
+      [
+        "$ff7_pool_300130"
+      ],
+      [
+        "$ff7_pool_300122"
+      ],
+      [
+        "$ff7_pool_200028"
+      ],
+      [
+        "$ff7_pool_300131"
+      ],
+      [
+        "$ff7_pool_200029"
+      ],
+      [
+        "$ff7_pool_200364"
+      ],
+      [
+        "$ff7_pool_200367"
+      ],
+      [
+        "$ff7_pool_200027"
+      ],
+      [
+        "$ff7_pool_300132"
+      ],
+      [
+        "$ff7_pool_310096"
+      ],
+      [
+        "$ff7_pool_310091"
+      ]
+    ]
+  },
+  {
+    "name": "Ancient Forest",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Ancient Forest - Apocalypse",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300005"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300006"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Minerva Band",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300000"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Slash-All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300001"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Spring Gun Clip",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300004"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Supershot ST",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300003"
+          ]
+        ]
+      },
+      {
+        "name": "Ancient Forest - Typhon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310081"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 964,
+        "y": 1716,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300005"
+      ],
+      [
+        "$ff7_pool_300006"
+      ],
+      [
+        "$ff7_pool_300000"
+      ],
+      [
+        "$ff7_pool_300001"
+      ],
+      [
+        "$ff7_pool_300004"
+      ],
+      [
+        "$ff7_pool_300003"
+      ],
+      [
+        "$ff7_pool_310081"
+      ]
+    ]
+  },
+  {
+    "name": "Corel Valley",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Corel Valley - Water Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300217"
+          ]
+        ]
+      },
+      {
+        "name": "Corel Valley Cave - Bolt Armlet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300386"
+          ]
+        ]
+      },
+      {
+        "name": "Corel Valley Cave - HypnoCrown",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300387"
+          ]
+        ]
+      },
+      {
+        "name": "Corel Valley Cave - Magic Plus",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300215"
+          ]
+        ]
+      },
+      {
+        "name": "Corel Valley Cave - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300214"
+          ]
+        ]
+      },
+      {
+        "name": "Corel Valley Cave - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300216"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1774,
+        "y": 800,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505,item_100527"
+      ],
+      [
+        "item_300506,item_100527"
+      ],
+      [
+        "item_300507,item_100527"
+      ],
+      [
+        "item_300501,item_100527"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300217"
+      ],
+      [
+        "$ff7_pool_300386"
+      ],
+      [
+        "$ff7_pool_300387"
+      ],
+      [
+        "$ff7_pool_300215"
+      ],
+      [
+        "$ff7_pool_300214"
+      ],
+      [
+        "$ff7_pool_300216"
+      ]
+    ]
+  },
+  {
+    "name": "Whirlwind Maze",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "trnad_1 - Black Materia",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300398"
+          ]
+        ]
+      },
+      {
+        "name": "Whirlwind Maze - Hero Drink",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310075"
+          ]
+        ]
+      },
+      {
+        "name": "Whirlwind Maze - KeyItem: Black Materia",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310016"
+          ]
+        ]
+      },
+      {
+        "name": "Whirlwind Maze - MP Turbo",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300249"
+          ]
+        ]
+      },
+      {
+        "name": "Whirlwind Maze - Neo Bahamut",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310074"
+          ]
+        ]
+      },
+      {
+        "name": "Whirlwind Maze - Poison Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300248"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1464,
+        "y": 360,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300398"
+      ],
+      [
+        "$ff7_pool_310075"
+      ],
+      [
+        "$ff7_pool_310016"
+      ],
+      [
+        "$ff7_pool_300249"
+      ],
+      [
+        "$ff7_pool_310074"
+      ],
+      [
+        "$ff7_pool_300248"
+      ]
+    ]
+  },
+  {
+    "name": "Gelnika",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Sunken Gelnika - Conformer",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310086"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika - Escort Guard",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310085"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika - Hades",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310083"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika - Heaven's Cloud",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310088"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika - Outsider",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310084"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika - Spirit Lance",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310087"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika Cargo Room - Highwind",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200296"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika Cargo Room - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310090"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika Research Room - Double Cut",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200295"
+          ]
+        ]
+      },
+      {
+        "name": "Sunken Gelnika Research Room - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310089"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1440,
+        "y": 1470,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310086"
+      ],
+      [
+        "$ff7_pool_310085"
+      ],
+      [
+        "$ff7_pool_310083"
+      ],
+      [
+        "$ff7_pool_310088"
+      ],
+      [
+        "$ff7_pool_310084"
+      ],
+      [
+        "$ff7_pool_310087"
+      ],
+      [
+        "$ff7_pool_200296"
+      ],
+      [
+        "$ff7_pool_310090"
+      ],
+      [
+        "$ff7_pool_200295"
+      ],
+      [
+        "$ff7_pool_310089"
+      ]
+    ]
+  },
+  {
+    "name": "Bosses",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Defeat Emerald Weapon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300438"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_300502"
+          ]
+        ]
+      },
+      {
+        "name": "Defeat Ruby Weapon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300439"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_300505"
+          ],
+          [
+            "item_300506"
+          ],
+          [
+            "item_300507"
+          ],
+          [
+            "item_300501"
+          ]
+        ]
+      },
+      {
+        "name": "Defeat Ultimate Weapon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200015"
+          ]
+        ],
+        "access_rules": [
+          [
+            "$ff7_linear"
+          ],
+          [
+            "item_300505"
+          ],
+          [
+            "item_300506"
+          ],
+          [
+            "item_300507"
+          ],
+          [
+            "item_300501"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 904,
+        "y": 564,
+        "size": 20
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300438"
+      ],
+      [
+        "$ff7_pool_300439"
+      ],
+      [
+        "$ff7_pool_200015"
+      ]
+    ]
+  },
+  {
+    "name": "Other Fields",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "blin1 - Turtle Paradise Flyer #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310059"
+          ]
+        ]
+      },
+      {
+        "name": "blin59 - KeyItem: Keycard 60",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310048"
+          ]
+        ]
+      },
+      {
+        "name": "blin61 - Keycard 62",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300391"
+          ]
+        ]
+      },
+      {
+        "name": "blin61 - KeyItem: Keycard 62",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310008"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Keycard 66",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310007"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Midgar parts",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310002"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Midgar parts #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310003"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Midgar parts #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310004"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Midgar parts #4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310005"
+          ]
+        ]
+      },
+      {
+        "name": "blin65_1 - KeyItem: Midgar parts #5",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310006"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - W-Item",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200339"
+          ]
+        ]
+      },
+      {
+        "name": "Bugenhagen's Observatory - Bahamut Zero",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310057"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300225"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300224"
+          ]
+        ]
+      },
+      {
+        "name": "Cargo Ship - Wind Slash",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300226"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - Added Effect",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300069"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - Black M-phone",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300070"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300071"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - Fairy Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300073"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300075"
+          ]
+        ]
+      },
+      {
+        "name": "Cave of the Gi - X-Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300074"
+          ]
+        ]
+      },
+      {
+        "name": "cosin1 - Turtle Paradise Flyer #4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310061"
+          ]
+        ]
+      },
+      {
+        "name": "cosin3 - Turtle Paradise Flyer #5",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310062"
+          ]
+        ]
+      },
+      {
+        "name": "Gaea's Cliff - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310073"
+          ]
+        ]
+      },
+      {
+        "name": "Hidden Room - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300260"
+          ]
+        ]
+      },
+      {
+        "name": "Hidden Room - Swift Bolt",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300259"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200184"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Enhance Sword",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300066"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Fire Armlet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200183"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Javelin",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300063"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Ribbon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300064"
+          ]
+        ]
+      },
+      {
+        "name": "Inside of Gaea's Cliff - Speed Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300065"
+          ]
+        ]
+      },
+      {
+        "name": "Lurecia's Cave - Chaos",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300274"
+          ]
+        ]
+      },
+      {
+        "name": "Mako Cannon - Missing Score",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200356"
+          ]
+        ]
+      },
+      {
+        "name": "Materia Cave - HP <-> MP",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310001"
+          ]
+        ]
+      },
+      {
+        "name": "Materia Cave - Knights of the Round",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200025"
+          ]
+        ]
+      },
+      {
+        "name": "Materia Cave - Mime",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300275"
+          ]
+        ]
+      },
+      {
+        "name": "Materia Cave - Quadra Magic",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200024"
+          ]
+        ]
+      },
+      {
+        "name": "Old Man in Cave - Bolt Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300269"
+          ]
+        ]
+      },
+      {
+        "name": "Old man's house - KeyItem: Mythril",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200021"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 2f. Shop - Master Fist",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300008"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 2f. Shop - Pile Banger",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300007"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 62f. - Can Advance",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310040"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 62f. - Elemental",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300011"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 62f. - KeyItem: Keycard 65",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310055"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - All",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300017"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - All #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310056"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - Four Slots",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300013"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - Grow Lance",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300016"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - Hourglass",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300014"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - Initialized the Machine",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310049"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - KeyItem: A Coupon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310050"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - KeyItem: B Coupon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310051"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - KeyItem: C Coupon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310052"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 63f. - Star Pendant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300012"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 64f. - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300018"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 64f. - HP Shout",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200135"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 64f. - Mind Source + Speed Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310054"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 64f. - Phoenix Down",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300281"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. 64f. - Shinra Gym Special Drink",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310053"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. Stairs - Behemoth Horn",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300286"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg. Stairs - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300022"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.67f. - Poison #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300284"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - Enemy Skill",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310079"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - KeyItem: KeyCard 68",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310041"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300285"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310076"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - Potion #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310077"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra Bldg.68f. - Potion #4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310078"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Bahamut",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310095"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Battle #645",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310093"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Battle #649",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310094"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Luck Plus",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200306"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200311"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200308"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Morph",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200305"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Nail Bat",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300109"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Princess Guard",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200309"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Ribbon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200315"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Rocket Punch",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200314"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Silver Rifle",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200316"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Trident",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200313"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Trumpet Shell",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200310"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200307"
+          ]
+        ]
+      },
+      {
+        "name": "Temple of the Ancients - Work Glove",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300111"
+          ]
+        ]
+      },
+      {
+        "name": "uutai1 - Turtle Paradise Flyer #7",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310064"
+          ]
+        ]
+      },
+      {
+        "name": "Weapon Seller - Gold Armlet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300271"
+          ]
+        ]
+      },
+      {
+        "name": "Weapon Seller - Great Gospel",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300270"
+          ]
+        ]
+      },
+      {
+        "name": "Winding Tunnel - Guard Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200354"
+          ]
+        ]
+      },
+      {
+        "name": "Winding Tunnel - Magic Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200350"
+          ]
+        ]
+      },
+      {
+        "name": "Winding Tunnel - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200352"
+          ]
+        ]
+      },
+      {
+        "name": "Winding Tunnel - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200353"
+          ]
+        ]
+      },
+      {
+        "name": "Wutai Weapons Store - HP Absorb",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310009"
+          ]
+        ]
+      },
+      {
+        "name": "yufy2 - Turtle Paradise Flyer #6",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310063"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2106,
+        "y": 1092,
+        "size": 28
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310059"
+      ],
+      [
+        "$ff7_pool_310048"
+      ],
+      [
+        "$ff7_pool_300391"
+      ],
+      [
+        "$ff7_pool_310008"
+      ],
+      [
+        "$ff7_pool_310007"
+      ],
+      [
+        "$ff7_pool_310002"
+      ],
+      [
+        "$ff7_pool_310003"
+      ],
+      [
+        "$ff7_pool_310004"
+      ],
+      [
+        "$ff7_pool_310005"
+      ],
+      [
+        "$ff7_pool_310006"
+      ],
+      [
+        "$ff7_pool_200339"
+      ],
+      [
+        "$ff7_pool_310057"
+      ],
+      [
+        "$ff7_pool_300225"
+      ],
+      [
+        "$ff7_pool_300224"
+      ],
+      [
+        "$ff7_pool_300226"
+      ],
+      [
+        "$ff7_pool_300069"
+      ],
+      [
+        "$ff7_pool_300070"
+      ],
+      [
+        "$ff7_pool_300071"
+      ],
+      [
+        "$ff7_pool_300073"
+      ],
+      [
+        "$ff7_pool_300075"
+      ],
+      [
+        "$ff7_pool_300074"
+      ],
+      [
+        "$ff7_pool_310061"
+      ],
+      [
+        "$ff7_pool_310062"
+      ],
+      [
+        "$ff7_pool_310073"
+      ],
+      [
+        "$ff7_pool_300260"
+      ],
+      [
+        "$ff7_pool_300259"
+      ],
+      [
+        "$ff7_pool_200184"
+      ],
+      [
+        "$ff7_pool_300066"
+      ],
+      [
+        "$ff7_pool_200183"
+      ],
+      [
+        "$ff7_pool_300063"
+      ],
+      [
+        "$ff7_pool_300064"
+      ],
+      [
+        "$ff7_pool_300065"
+      ],
+      [
+        "$ff7_pool_300274"
+      ],
+      [
+        "$ff7_pool_200356"
+      ],
+      [
+        "$ff7_pool_310001"
+      ],
+      [
+        "$ff7_pool_200025"
+      ],
+      [
+        "$ff7_pool_300275"
+      ],
+      [
+        "$ff7_pool_200024"
+      ],
+      [
+        "$ff7_pool_300269"
+      ],
+      [
+        "$ff7_pool_200021"
+      ],
+      [
+        "$ff7_pool_300008"
+      ],
+      [
+        "$ff7_pool_300007"
+      ],
+      [
+        "$ff7_pool_310040"
+      ],
+      [
+        "$ff7_pool_300011"
+      ],
+      [
+        "$ff7_pool_310055"
+      ],
+      [
+        "$ff7_pool_300017"
+      ],
+      [
+        "$ff7_pool_310056"
+      ],
+      [
+        "$ff7_pool_300013"
+      ],
+      [
+        "$ff7_pool_300016"
+      ],
+      [
+        "$ff7_pool_300014"
+      ],
+      [
+        "$ff7_pool_310049"
+      ],
+      [
+        "$ff7_pool_310050"
+      ],
+      [
+        "$ff7_pool_310051"
+      ],
+      [
+        "$ff7_pool_310052"
+      ],
+      [
+        "$ff7_pool_300012"
+      ],
+      [
+        "$ff7_pool_300018"
+      ],
+      [
+        "$ff7_pool_200135"
+      ],
+      [
+        "$ff7_pool_310054"
+      ],
+      [
+        "$ff7_pool_300281"
+      ],
+      [
+        "$ff7_pool_310053"
+      ],
+      [
+        "$ff7_pool_300286"
+      ],
+      [
+        "$ff7_pool_300022"
+      ],
+      [
+        "$ff7_pool_300284"
+      ],
+      [
+        "$ff7_pool_310079"
+      ],
+      [
+        "$ff7_pool_310041"
+      ],
+      [
+        "$ff7_pool_300285"
+      ],
+      [
+        "$ff7_pool_310076"
+      ],
+      [
+        "$ff7_pool_310077"
+      ],
+      [
+        "$ff7_pool_310078"
+      ],
+      [
+        "$ff7_pool_310095"
+      ],
+      [
+        "$ff7_pool_310093"
+      ],
+      [
+        "$ff7_pool_310094"
+      ],
+      [
+        "$ff7_pool_200306"
+      ],
+      [
+        "$ff7_pool_200311"
+      ],
+      [
+        "$ff7_pool_200308"
+      ],
+      [
+        "$ff7_pool_200305"
+      ],
+      [
+        "$ff7_pool_300109"
+      ],
+      [
+        "$ff7_pool_200309"
+      ],
+      [
+        "$ff7_pool_200315"
+      ],
+      [
+        "$ff7_pool_200314"
+      ],
+      [
+        "$ff7_pool_200316"
+      ],
+      [
+        "$ff7_pool_200313"
+      ],
+      [
+        "$ff7_pool_200310"
+      ],
+      [
+        "$ff7_pool_200307"
+      ],
+      [
+        "$ff7_pool_300111"
+      ],
+      [
+        "$ff7_pool_310064"
+      ],
+      [
+        "$ff7_pool_300271"
+      ],
+      [
+        "$ff7_pool_300270"
+      ],
+      [
+        "$ff7_pool_200354"
+      ],
+      [
+        "$ff7_pool_200350"
+      ],
+      [
+        "$ff7_pool_200352"
+      ],
+      [
+        "$ff7_pool_200353"
+      ],
+      [
+        "$ff7_pool_310009"
+      ],
+      [
+        "$ff7_pool_310063"
+      ]
+    ]
+  },
+  {
+    "name": "Bone Village",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Bone Village - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320116"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - Buntline",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300287"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - KeyItem: Key To Sector 5",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310082"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - KeyItem: Lunar Harp",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310042"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - Megalixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300289"
+          ]
+        ]
+      },
+      {
+        "name": "Bone Village - Mop",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300290"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1704,
+        "y": 876,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320116"
+      ],
+      [
+        "$ff7_pool_300287"
+      ],
+      [
+        "$ff7_pool_310082"
+      ],
+      [
+        "$ff7_pool_310042"
+      ],
+      [
+        "$ff7_pool_300289"
+      ],
+      [
+        "$ff7_pool_300290"
+      ]
+    ]
+  },
+  {
+    "name": "Chocobo Sage",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Chocobo Sage's house - Enemy Skill",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300272"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1592,
+        "y": 676,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300272"
+      ]
+    ]
+  },
+  {
+    "name": "Costa del Sol",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Cloud's Villa - Purchased The House",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200320"
+          ]
+        ]
+      },
+      {
+        "name": "Costa Del Sol Cellar - Fire Ring",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200318"
+          ]
+        ]
+      },
+      {
+        "name": "Costa Del Sol Cellar - Motor Drive",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200317"
+          ]
+        ]
+      },
+      {
+        "name": "Costa Del Sol Cellar - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200319"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320074"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320073"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320069"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320070"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320071"
+          ]
+        ]
+      },
+      {
+        "name": "Costa del Sol Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320072"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1532,
+        "y": 1214,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200320"
+      ],
+      [
+        "$ff7_pool_200318"
+      ],
+      [
+        "$ff7_pool_200317"
+      ],
+      [
+        "$ff7_pool_200319"
+      ],
+      [
+        "$ff7_pool_320074"
+      ],
+      [
+        "$ff7_pool_320073"
+      ],
+      [
+        "$ff7_pool_320069"
+      ],
+      [
+        "$ff7_pool_320070"
+      ],
+      [
+        "$ff7_pool_320071"
+      ],
+      [
+        "$ff7_pool_320072"
+      ]
+    ]
+  },
+  {
+    "name": "Mideel",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Mideel - Contain",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200372"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Accessory - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320109"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Accessory - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320110"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Accessory - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320111"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320112"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320113"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320114"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel Weapon - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320108"
+          ]
+        ]
+      },
+      {
+        "name": "Mideel,House 2 - Elixir",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200371"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2427,
+        "y": 1927,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200372"
+      ],
+      [
+        "$ff7_pool_320109"
+      ],
+      [
+        "$ff7_pool_320110"
+      ],
+      [
+        "$ff7_pool_320111"
+      ],
+      [
+        "$ff7_pool_320112"
+      ],
+      [
+        "$ff7_pool_320113"
+      ],
+      [
+        "$ff7_pool_320114"
+      ],
+      [
+        "$ff7_pool_320108"
+      ],
+      [
+        "$ff7_pool_200371"
+      ]
+    ]
+  },
+  {
+    "name": "Mt. Corel",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Mt. Corel - Mind Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200326"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Power Source",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200327"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Star Pendant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200321"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Tent",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200328"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Transform",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200324"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Turbo Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200325"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - W Machine Gun",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200323"
+          ]
+        ]
+      },
+      {
+        "name": "Mt. Corel - Wizard Staff",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200322"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1334,
+        "y": 1260,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200326"
+      ],
+      [
+        "$ff7_pool_200327"
+      ],
+      [
+        "$ff7_pool_200321"
+      ],
+      [
+        "$ff7_pool_200328"
+      ],
+      [
+        "$ff7_pool_200324"
+      ],
+      [
+        "$ff7_pool_200325"
+      ],
+      [
+        "$ff7_pool_200323"
+      ],
+      [
+        "$ff7_pool_200322"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Mansion Basement",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Shinra Mansion, Basement - Destruct",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300233"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1024,
+        "y": 1304,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505,item_100528"
+      ],
+      [
+        "item_300506,item_100528"
+      ],
+      [
+        "item_300507,item_100528"
+      ],
+      [
+        "item_300501,item_100528"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300233"
+      ]
+    ]
+  },
+  {
+    "name": "Sleeping Forest",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Sleeping Forest - Kujata",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300234"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1724,
+        "y": 828,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300505"
+      ],
+      [
+        "item_300506"
+      ],
+      [
+        "item_300507"
+      ],
+      [
+        "item_300501"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300234"
+      ]
+    ]
+  },
+  {
+    "name": "Underwater Reactor",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Red Submarine - KeyItem: Huge Materia (Underwater)",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310012"
+          ]
+        ]
+      },
+      {
+        "name": "Underwater Reactor - Battle Trumpet",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200343"
+          ]
+        ]
+      },
+      {
+        "name": "Underwater Reactor - KeyItem: Leviathan Scales",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200336"
+          ]
+        ]
+      },
+      {
+        "name": "Underwater Reactor - Scimitar",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200342"
+          ]
+        ]
+      },
+      {
+        "name": "World Map - KeyItem: Key to Ancients",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310013"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1780,
+        "y": 1364,
+        "size": 20
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310012"
+      ],
+      [
+        "$ff7_pool_200343"
+      ],
+      [
+        "$ff7_pool_200336"
+      ],
+      [
+        "$ff7_pool_200342"
+      ],
+      [
+        "$ff7_pool_310013"
+      ]
+    ]
+  }
+]

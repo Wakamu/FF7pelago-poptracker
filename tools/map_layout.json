@@ -1,0 +1,46 @@
+{
+  "check_areas": {},
+  "pin_coords": {
+    "Cargo Ship": [
+      1821,
+      1447
+    ],
+    "Gaea's Cliff": [
+      1475,
+      457
+    ],
+    "HP MP": [
+      1202,
+      1078
+    ],
+    "Knights": [
+      2931,
+      194
+    ],
+    "Lucrecia's Cave": [
+      1065,
+      1383
+    ],
+    "Midgar (Shinra Bldg.)": [
+      2039,
+      1194
+    ],
+    "Mime": [
+      554,
+      1269
+    ],
+    "Old Man": [
+      2223,
+      1282
+    ],
+    "Quadra": [
+      3051,
+      1365
+    ],
+    "Weapon Seller": [
+      1390,
+      1701
+    ]
+  },
+  "standalone_checks": {}
+}
