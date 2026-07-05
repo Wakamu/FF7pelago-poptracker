@@ -3,6 +3,180 @@
     "name": "world",
     "location_size": 16,
     "location_border_thickness": 2,
-    "img": "images/worldmap.png"
+    "img": "images/maps/world.png"
+  },
+  {
+    "name": "kalm",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/kalm.png"
+  },
+  {
+    "name": "chocobo_farm",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/chocobo_farm.png"
+  },
+  {
+    "name": "mythril_mines",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/mythril_mines.png"
+  },
+  {
+    "name": "fort_condor",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/fort_condor.png"
+  },
+  {
+    "name": "under_junon",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/under_junon.png"
+  },
+  {
+    "name": "upper_junon",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/upper_junon.png"
+  },
+  {
+    "name": "lower_junon",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/lower_junon.png"
+  },
+  {
+    "name": "costa_del_sol",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/costa_del_sol.png"
+  },
+  {
+    "name": "mtcorel",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/mtcorel.png"
+  },
+  {
+    "name": "north_corel",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/north_corel.png"
+  },
+  {
+    "name": "gongaga",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/gongaga.png"
+  },
+  {
+    "name": "cosmo_canyon",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/cosmo_canyon.png"
+  },
+  {
+    "name": "cave_of_the_gi",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/cave_of_the_gi.png"
+  },
+  {
+    "name": "nibelheim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/nibelheim.png"
+  },
+  {
+    "name": "mansion",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/mansion.png"
+  },
+  {
+    "name": "mtnibel",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/mtnibel.png"
+  },
+  {
+    "name": "rocket_town",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/rocket_town.png"
+  },
+  {
+    "name": "wutai",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/wutai.png"
+  },
+  {
+    "name": "wutai_mountain",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/wutai_mountain.png"
+  },
+  {
+    "name": "wutai_da_chao",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/wutai_da_chao.png"
+  },
+  {
+    "name": "sleeping_forest",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/sleeping_forest.png"
+  },
+  {
+    "name": "corel_valley",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/corel_valley.png"
+  },
+  {
+    "name": "forgotten_capital",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/forgotten_capital.png"
+  },
+  {
+    "name": "icicle_inn",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/icicle_inn.png"
+  },
+  {
+    "name": "glacier",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/glacier.png"
+  },
+  {
+    "name": "gaea_s_cliff",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/gaea_s_cliff.png"
+  },
+  {
+    "name": "whirlwind_maze",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/whirlwind_maze.png"
+  },
+  {
+    "name": "mideel",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/mideel.png"
+  },
+  {
+    "name": "ancient_forest",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/ancient_forest.png"
   }
 ]

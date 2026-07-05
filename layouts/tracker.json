@@ -183,6 +183,267 @@
             "world"
           ]
         }
+      },
+      {
+        "title": "Kalm",
+        "content": {
+          "type": "map",
+          "maps": [
+            "kalm"
+          ]
+        }
+      },
+      {
+        "title": "Chocobo Farm",
+        "content": {
+          "type": "map",
+          "maps": [
+            "chocobo_farm"
+          ]
+        }
+      },
+      {
+        "title": "Mythril Mines",
+        "content": {
+          "type": "map",
+          "maps": [
+            "mythril_mines"
+          ]
+        }
+      },
+      {
+        "title": "Fort Condor",
+        "content": {
+          "type": "map",
+          "maps": [
+            "fort_condor"
+          ]
+        }
+      },
+      {
+        "title": "Under Junon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "under_junon"
+          ]
+        }
+      },
+      {
+        "title": "Upper Junon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "upper_junon"
+          ]
+        }
+      },
+      {
+        "title": "Lower Junon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "lower_junon"
+          ]
+        }
+      },
+      {
+        "title": "Costa Del Sol",
+        "content": {
+          "type": "map",
+          "maps": [
+            "costa_del_sol"
+          ]
+        }
+      },
+      {
+        "title": "MtCorel",
+        "content": {
+          "type": "map",
+          "maps": [
+            "mtcorel"
+          ]
+        }
+      },
+      {
+        "title": "North Corel",
+        "content": {
+          "type": "map",
+          "maps": [
+            "north_corel"
+          ]
+        }
+      },
+      {
+        "title": "Gongaga",
+        "content": {
+          "type": "map",
+          "maps": [
+            "gongaga"
+          ]
+        }
+      },
+      {
+        "title": "Cosmo Canyon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "cosmo_canyon"
+          ]
+        }
+      },
+      {
+        "title": "Cave of the Gi",
+        "content": {
+          "type": "map",
+          "maps": [
+            "cave_of_the_gi"
+          ]
+        }
+      },
+      {
+        "title": "Nibelheim",
+        "content": {
+          "type": "map",
+          "maps": [
+            "nibelheim"
+          ]
+        }
+      },
+      {
+        "title": "Shinra Mansion",
+        "content": {
+          "type": "map",
+          "maps": [
+            "mansion"
+          ]
+        }
+      },
+      {
+        "title": "MtNibel",
+        "content": {
+          "type": "map",
+          "maps": [
+            "mtnibel"
+          ]
+        }
+      },
+      {
+        "title": "Rocket Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "rocket_town"
+          ]
+        }
+      },
+      {
+        "title": "Wutai",
+        "content": {
+          "type": "map",
+          "maps": [
+            "wutai"
+          ]
+        }
+      },
+      {
+        "title": "Wutai Mountain",
+        "content": {
+          "type": "map",
+          "maps": [
+            "wutai_mountain"
+          ]
+        }
+      },
+      {
+        "title": "Wutai (Da-Chao)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "wutai_da_chao"
+          ]
+        }
+      },
+      {
+        "title": "Sleeping Forest",
+        "content": {
+          "type": "map",
+          "maps": [
+            "sleeping_forest"
+          ]
+        }
+      },
+      {
+        "title": "Corel Valley",
+        "content": {
+          "type": "map",
+          "maps": [
+            "corel_valley"
+          ]
+        }
+      },
+      {
+        "title": "Forgotten Capital",
+        "content": {
+          "type": "map",
+          "maps": [
+            "forgotten_capital"
+          ]
+        }
+      },
+      {
+        "title": "Icicle Inn",
+        "content": {
+          "type": "map",
+          "maps": [
+            "icicle_inn"
+          ]
+        }
+      },
+      {
+        "title": "Great Glacier",
+        "content": {
+          "type": "map",
+          "maps": [
+            "glacier"
+          ]
+        }
+      },
+      {
+        "title": "Gaea's Cliff",
+        "content": {
+          "type": "map",
+          "maps": [
+            "gaea_s_cliff"
+          ]
+        }
+      },
+      {
+        "title": "Whirlwind Maze",
+        "content": {
+          "type": "map",
+          "maps": [
+            "whirlwind_maze"
+          ]
+        }
+      },
+      {
+        "title": "Mideel",
+        "content": {
+          "type": "map",
+          "maps": [
+            "mideel"
+          ]
+        }
+      },
+      {
+        "title": "Ancient Forest",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ancient_forest"
+          ]
+        }
       }
     ]
   }

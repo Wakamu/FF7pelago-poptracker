@@ -16,7 +16,13 @@ from logic_rules import (
     location_extra_rules,
     region_access_rules,
 )
-from map_layout import MapLayout, load_layout, merged_group_coords, standalone_pin_name
+from map_layout import (
+    MapLayout,
+    WORLD_MAP_ID,
+    collect_group_map_locations,
+    load_layout,
+    standalone_proxy_name,
+)
 from slot_data_export import load_slot_constants, write_logic_pool_lua, write_logic_seed_lua
 from world_map_coords import (
     WORLD_MAP_ID,
@@ -40,6 +46,11 @@ def poptracker_section_name(check_name: str) -> str:
 
 def section_ref(region: str, check_name: str) -> str:
     return f"@{region}/{poptracker_section_name(check_name)}/"
+
+
+def section_ref_target(region: str, check_name: str) -> str:
+    """PopTracker JSON section ref path (no @ prefix)."""
+    return f"{region}/{poptracker_section_name(check_name)}"
 
 
 def make_solid_png(width: int, height: int, rgba: tuple[int, int, int, int]) -> bytes:
@@ -273,8 +284,6 @@ def build_locations(
     all_locations: list[dict] = []
     layout = layout or MapLayout()
     overrides = layout.check_areas
-    standalone = layout.standalone_checks
-    hub_coords = merged_group_coords(pack_root) if pack_root else {}
 
     for loc in field_locations:
         if loc["name"] == VICTORY_LOCATION:
@@ -294,16 +303,15 @@ def build_locations(
     location_mapping: dict[int, str] = {}
     location_meta: dict[int, dict[str, str]] = {}
     by_area: dict[str, list[tuple[str, dict]]] = defaultdict(list)
-    standalone_codes = set(standalone)
+    code_to_area: dict[int, str] = {}
 
     for loc in sorted(all_locations, key=lambda x: (x["name"].lower(), x["code"])):
         code = loc["code"]
-        if code in standalone_codes:
-            continue
         region = region_for_location(loc, region_map, shops_by_code)
         area = overrides.get(code, world_area_name(region))
         location_mapping[code] = section_ref(area, loc["name"])
         location_meta[code] = {"region": region}
+        code_to_area[code] = area
         by_area[area].append((region, loc))
 
     world_regions: list[dict] = []
@@ -339,78 +347,62 @@ def build_locations(
                 region_access_rules(primary_region, rule_sets)
             )
 
-        hub_x, hub_y = hub_coords.get(area, area_hub(area))
-        region_entry = {
-            "name": area,
-            "chest_unopened_img": "images/chest.png",
-            "chest_opened_img": "images/chest_open.png",
-            "overlay_background": "#CC000000",
-            "sections": sections,
-            "map_locations": [
+        hub_x, hub_y = area_hub(area)
+        map_locations = collect_group_map_locations(
+            layout, pack_root or ROOT, area, len(sections), area_pin_size
+        )
+        if not map_locations:
+            map_locations = [
                 {
                     "map": WORLD_MAP_ID,
                     "x": hub_x,
                     "y": hub_y,
                     "size": area_pin_size(len(sections)),
                 }
-            ],
+            ]
+        region_entry = {
+            "name": area,
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chest_open.png",
+            "overlay_background": "#CC000000",
+            "sections": sections,
+            "map_locations": map_locations,
         }
         if parent_rules:
             region_entry["access_rules"] = parent_rules
         region_entry["visibility_rules"] = area_visibility_rules(area_codes)
         world_regions.append(region_entry)
 
-    loc_by_code = {loc["code"]: loc for loc in all_locations}
-    used_standalone_names: set[str] = set()
-    for code in sorted(standalone):
-        loc = loc_by_code.get(code)
-        if loc is None:
+    used_proxy_names: set[str] = set()
+    for map_def in layout.maps:
+        if map_def.id == WORLD_MAP_ID:
             continue
-        full_region = region_for_location(loc, region_map, shops_by_code)
-        section_name = poptracker_section_name(loc["name"])
-        pin_name = standalone_pin_name(section_name, code, used_standalone_names)
-        location_mapping[code] = section_ref(pin_name, loc["name"])
-        location_meta[code] = {"region": full_region}
-
-        if full_region == "Bosses":
-            section_rules = wrap_freeroam_access_rules(
-                boss_access_rules(loc["name"], rule_sets)
-            )
-        else:
-            section_rules = wrap_freeroam_access_rules(
-                location_extra_rules(loc["code"], item_codes)
-            )
-        section_entry = {
-            "name": section_name,
-            "item_count": 1,
-            "visibility_rules": pool_visibility_rules(code),
-        }
-        if section_rules:
-            section_entry["access_rules"] = section_rules
-
-        parent_rules = wrap_freeroam_access_rules(
-            region_access_rules(full_region, rule_sets)
-        )
-        sx, sy = standalone[code]
-        pin_entry = {
-            "name": pin_name,
-            "chest_unopened_img": "images/chest.png",
-            "chest_opened_img": "images/chest_open.png",
-            "overlay_background": "#CC000000",
-            "sections": [section_entry],
-            "map_locations": [
+        pins = layout.pins.get(map_def.id)
+        if not pins:
+            continue
+        for code, (x, y) in sorted(pins.standalone.items()):
+            area = code_to_area.get(code)
+            if area is None:
+                continue
+            loc = next((l for _, l in by_area.get(area, []) if l["code"] == code), None)
+            if loc is None:
+                continue
+            section_name = poptracker_section_name(loc["name"])
+            ref = section_ref_target(area, loc["name"])
+            proxy_name = standalone_proxy_name(map_def.id, section_name, code, used_proxy_names)
+            world_regions.append(
                 {
-                    "map": WORLD_MAP_ID,
-                    "x": sx,
-                    "y": sy,
-                    "size": 18,
+                    "name": proxy_name,
+                    "chest_unopened_img": "images/chest.png",
+                    "chest_opened_img": "images/chest_open.png",
+                    "overlay_background": "#CC000000",
+                    "sections": [{"ref": ref}],
+                    "map_locations": [
+                        {"map": map_def.id, "x": x, "y": y, "size": 18},
+                    ],
+                    "visibility_rules": pool_visibility_rules(code),
                 }
-            ],
-            "visibility_rules": area_visibility_rules([code]),
-        }
-        if parent_rules:
-            pin_entry["access_rules"] = parent_rules
-        world_regions.append(pin_entry)
+            )
 
     world_payload = {
         "file": "locations/world.json",
@@ -432,7 +424,7 @@ def write_lua_mapping(path: Path, table_name: str, mapping: dict[int, object]) -
   path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_layout(display_item_codes: list[str]) -> dict:
+def write_layout(display_item_codes: list[str], layout: MapLayout) -> dict:
     progression_rows = []
     row: list[str] = []
     for code in display_item_codes:
@@ -443,6 +435,13 @@ def write_layout(display_item_codes: list[str]) -> dict:
     if row:
         progression_rows.append(row)
 
+    map_tabs = [
+        {
+            "title": map_def.title,
+            "content": {"type": "map", "maps": [map_def.id]},
+        }
+        for map_def in layout.maps
+    ]
     tabs = [
         {
             "title": "Items",
@@ -462,13 +461,7 @@ def write_layout(display_item_codes: list[str]) -> dict:
                 ],
             },
         },
-        {
-            "title": "World Map",
-            "content": {
-                "type": "map",
-                "maps": [WORLD_MAP_ID],
-            },
-        },
+        *map_tabs,
     ]
 
     return {
@@ -479,14 +472,15 @@ def write_layout(display_item_codes: list[str]) -> dict:
     }
 
 
-def write_maps() -> list[dict]:
+def write_maps(layout: MapLayout) -> list[dict]:
     return [
         {
-            "name": WORLD_MAP_ID,
+            "name": map_def.id,
             "location_size": 16,
             "location_border_thickness": 2,
-            "img": WORLD_MAP_IMAGE,
+            "img": map_def.image,
         }
+        for map_def in layout.maps
     ]
 
 
@@ -535,12 +529,12 @@ def generate(apworld: Path = DEFAULT_APWORLD) -> None:
     )
 
     (ROOT / "maps" / "maps.json").write_text(
-        json.dumps(write_maps(), indent=2) + "\n",
+        json.dumps(write_maps(layout), indent=2) + "\n",
         encoding="utf-8",
     )
 
     (ROOT / "layouts" / "tracker.json").write_text(
-        json.dumps(write_layout(display_item_codes), indent=2) + "\n",
+        json.dumps(write_layout(display_item_codes, layout), indent=2) + "\n",
         encoding="utf-8",
     )
 

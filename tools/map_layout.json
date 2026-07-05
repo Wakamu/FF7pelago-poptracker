@@ -1,46 +1,1570 @@
 {
-  "check_areas": {},
-  "pin_coords": {
-    "Cargo Ship": [
-      1821,
-      1447
-    ],
-    "Gaea's Cliff": [
-      1475,
-      457
-    ],
-    "HP MP": [
-      1202,
-      1078
-    ],
-    "Knights": [
-      2931,
-      194
-    ],
-    "Lucrecia's Cave": [
-      1065,
-      1383
-    ],
-    "Midgar (Shinra Bldg.)": [
-      2039,
-      1194
-    ],
-    "Mime": [
-      554,
-      1269
-    ],
-    "Old Man": [
-      2223,
-      1282
-    ],
-    "Quadra": [
-      3051,
-      1365
-    ],
-    "Weapon Seller": [
-      1390,
-      1701
-    ]
+  "version": 2,
+  "check_areas": {
+    "200021": "Old Man",
+    "200024": "Quadra",
+    "200025": "Knights",
+    "200135": "Midgar (Shinra Bldg.)",
+    "200183": "Gaea's Cliff",
+    "200184": "Gaea's Cliff",
+    "200305": "Temple of the Ancients",
+    "200306": "Temple of the Ancients",
+    "200307": "Temple of the Ancients",
+    "200308": "Temple of the Ancients",
+    "200309": "Temple of the Ancients",
+    "200310": "Temple of the Ancients",
+    "200311": "Temple of the Ancients",
+    "200313": "Temple of the Ancients",
+    "200314": "Temple of the Ancients",
+    "200315": "Temple of the Ancients",
+    "200316": "Temple of the Ancients",
+    "200339": "Bone Village",
+    "200350": "Midgar (Fields)",
+    "200352": "Midgar (Fields)",
+    "200353": "Midgar (Fields)",
+    "200354": "Midgar (Fields)",
+    "200356": "Midgar (Fields)",
+    "300007": "Midgar (Shinra Bldg.)",
+    "300008": "Midgar (Shinra Bldg.)",
+    "300011": "Midgar (Shinra Bldg.)",
+    "300012": "Midgar (Shinra Bldg.)",
+    "300013": "Midgar (Shinra Bldg.)",
+    "300014": "Midgar (Shinra Bldg.)",
+    "300016": "Midgar (Shinra Bldg.)",
+    "300017": "Midgar (Shinra Bldg.)",
+    "300018": "Midgar (Shinra Bldg.)",
+    "300022": "Midgar (Shinra Bldg.)",
+    "300063": "Gaea's Cliff",
+    "300064": "Gaea's Cliff",
+    "300065": "Gaea's Cliff",
+    "300066": "Gaea's Cliff",
+    "300069": "Cosmo Canyon",
+    "300070": "Cosmo Canyon",
+    "300071": "Cosmo Canyon",
+    "300073": "Cosmo Canyon",
+    "300074": "Cosmo Canyon",
+    "300075": "Cosmo Canyon",
+    "300100": "Junon Upper",
+    "300104": "Junon Upper",
+    "300109": "Temple of the Ancients",
+    "300111": "Temple of the Ancients",
+    "300224": "Cargo Ship",
+    "300225": "Cargo Ship",
+    "300226": "Cargo Ship",
+    "300228": "Shinra Mansion Basement",
+    "300229": "Shinra Mansion Basement",
+    "300230": "Shinra Mansion Basement",
+    "300231": "Shinra Mansion Basement",
+    "300232": "Shinra Mansion Basement",
+    "300250": "Under Junon",
+    "300259": "Wutai",
+    "300260": "Wutai",
+    "300269": "Old Man",
+    "300270": "Weapon Seller",
+    "300271": "Weapon Seller",
+    "300274": "Lucrecia's Cave",
+    "300275": "Mime",
+    "300281": "Midgar (Shinra Bldg.)",
+    "300284": "Midgar (Shinra Bldg.)",
+    "300285": "Midgar (Shinra Bldg.)",
+    "300286": "Midgar (Shinra Bldg.)",
+    "300391": "Midgar (Shinra Bldg.)",
+    "310001": "HP MP",
+    "310002": "Midgar (Shinra Bldg.)",
+    "310003": "Midgar (Shinra Bldg.)",
+    "310004": "Midgar (Shinra Bldg.)",
+    "310005": "Midgar (Shinra Bldg.)",
+    "310006": "Midgar (Shinra Bldg.)",
+    "310007": "Midgar (Shinra Bldg.)",
+    "310008": "Midgar (Shinra Bldg.)",
+    "310009": "Wutai",
+    "310040": "Midgar (Shinra Bldg.)",
+    "310041": "Midgar (Shinra Bldg.)",
+    "310043": "Shinra Mansion Basement",
+    "310048": "Midgar (Shinra Bldg.)",
+    "310049": "Midgar (Shinra Bldg.)",
+    "310050": "Midgar (Shinra Bldg.)",
+    "310051": "Midgar (Shinra Bldg.)",
+    "310052": "Midgar (Shinra Bldg.)",
+    "310053": "Midgar (Shinra Bldg.)",
+    "310054": "Midgar (Shinra Bldg.)",
+    "310055": "Midgar (Shinra Bldg.)",
+    "310056": "Midgar (Shinra Bldg.)",
+    "310057": "Cosmo Canyon",
+    "310059": "Wutai",
+    "310061": "Wutai",
+    "310062": "Wutai",
+    "310063": "Wutai",
+    "310064": "Wutai",
+    "310073": "Gaea's Cliff",
+    "310076": "Midgar (Shinra Bldg.)",
+    "310077": "Midgar (Shinra Bldg.)",
+    "310078": "Midgar (Shinra Bldg.)",
+    "310079": "Midgar (Shinra Bldg.)",
+    "310093": "Temple of the Ancients",
+    "310094": "Temple of the Ancients",
+    "310095": "Temple of the Ancients",
+    "320046": "Under Junon",
+    "320047": "Under Junon",
+    "320048": "Under Junon",
+    "320049": "Under Junon",
+    "320054": "Junon Lower",
+    "320060": "Junon Lower",
+    "320061": "Junon Lower",
+    "320062": "Junon Lower",
+    "320063": "Junon Lower",
+    "320065": "Cargo Ship",
+    "320066": "Cargo Ship",
+    "320067": "Cargo Ship",
+    "320068": "Cargo Ship"
   },
-  "standalone_checks": {}
+  "maps": [
+    {
+      "id": "world",
+      "title": "World Map",
+      "image": "images/maps/world.png",
+      "builtin": true
+    },
+    {
+      "id": "kalm",
+      "title": "Kalm",
+      "image": "images/maps/kalm.png"
+    },
+    {
+      "id": "chocobo_farm",
+      "title": "Chocobo Farm",
+      "image": "images/maps/chocobo_farm.png"
+    },
+    {
+      "id": "mythril_mines",
+      "title": "Mythril Mines",
+      "image": "images/maps/mythril_mines.png"
+    },
+    {
+      "id": "fort_condor",
+      "title": "Fort Condor",
+      "image": "images/maps/fort_condor.png"
+    },
+    {
+      "id": "under_junon",
+      "title": "Under Junon",
+      "image": "images/maps/under_junon.png"
+    },
+    {
+      "id": "upper_junon",
+      "title": "Upper Junon",
+      "image": "images/maps/upper_junon.png"
+    },
+    {
+      "id": "lower_junon",
+      "title": "Lower Junon",
+      "image": "images/maps/lower_junon.png"
+    },
+    {
+      "id": "costa_del_sol",
+      "title": "Costa Del Sol",
+      "image": "images/maps/costa_del_sol.png"
+    },
+    {
+      "id": "mtcorel",
+      "title": "MtCorel",
+      "image": "images/maps/mtcorel.png"
+    },
+    {
+      "id": "north_corel",
+      "title": "North Corel",
+      "image": "images/maps/north_corel.png"
+    },
+    {
+      "id": "gongaga",
+      "title": "Gongaga",
+      "image": "images/maps/gongaga.png"
+    },
+    {
+      "id": "cosmo_canyon",
+      "title": "Cosmo Canyon",
+      "image": "images/maps/cosmo_canyon.png"
+    },
+    {
+      "id": "cave_of_the_gi",
+      "title": "Cave of the Gi",
+      "image": "images/maps/cave_of_the_gi.png"
+    },
+    {
+      "id": "nibelheim",
+      "title": "Nibelheim",
+      "image": "images/maps/nibelheim.png"
+    },
+    {
+      "id": "mansion",
+      "title": "Shinra Mansion",
+      "image": "images/maps/mansion.png"
+    },
+    {
+      "id": "mtnibel",
+      "title": "MtNibel",
+      "image": "images/maps/mtnibel.png"
+    },
+    {
+      "id": "rocket_town",
+      "title": "Rocket Town",
+      "image": "images/maps/rocket_town.png"
+    },
+    {
+      "id": "wutai",
+      "title": "Wutai",
+      "image": "images/maps/wutai.png"
+    },
+    {
+      "id": "wutai_mountain",
+      "title": "Wutai Mountain",
+      "image": "images/maps/wutai_mountain.png"
+    },
+    {
+      "id": "wutai_da_chao",
+      "title": "Wutai (Da-Chao)",
+      "image": "images/maps/wutai_da_chao.png"
+    },
+    {
+      "id": "sleeping_forest",
+      "title": "Sleeping Forest",
+      "image": "images/maps/sleeping_forest.png"
+    },
+    {
+      "id": "corel_valley",
+      "title": "Corel Valley",
+      "image": "images/maps/corel_valley.png"
+    },
+    {
+      "id": "forgotten_capital",
+      "title": "Forgotten Capital",
+      "image": "images/maps/forgotten_capital.png"
+    },
+    {
+      "id": "icicle_inn",
+      "title": "Icicle Inn",
+      "image": "images/maps/icicle_inn.png"
+    },
+    {
+      "id": "glacier",
+      "title": "Great Glacier",
+      "image": "images/maps/glacier.png"
+    },
+    {
+      "id": "gaea_s_cliff",
+      "title": "Gaea's Cliff",
+      "image": "images/maps/gaea_s_cliff.png"
+    },
+    {
+      "id": "whirlwind_maze",
+      "title": "Whirlwind Maze",
+      "image": "images/maps/whirlwind_maze.png"
+    },
+    {
+      "id": "mideel",
+      "title": "Mideel",
+      "image": "images/maps/mideel.png"
+    },
+    {
+      "id": "ancient_forest",
+      "title": "Ancient Forest",
+      "image": "images/maps/ancient_forest.png"
+    }
+  ],
+  "pins": {
+    "ancient_forest": {
+      "groups": {},
+      "standalone": {
+        "300000": [
+          1043,
+          715
+        ],
+        "300001": [
+          881,
+          705
+        ],
+        "300003": [
+          371,
+          721
+        ],
+        "300004": [
+          543,
+          675
+        ],
+        "300005": [
+          1857,
+          313
+        ],
+        "300006": [
+          1829,
+          175
+        ],
+        "310081": [
+          1639,
+          577
+        ]
+      }
+    },
+    "cave_of_the_gi": {
+      "groups": {},
+      "standalone": {
+        "300069": [
+          599,
+          800
+        ],
+        "300070": [
+          751,
+          668
+        ],
+        "300071": [
+          795,
+          348
+        ],
+        "300073": [
+          1157,
+          632
+        ],
+        "300074": [
+          1211,
+          376
+        ],
+        "300075": [
+          1055,
+          390
+        ]
+      }
+    },
+    "chocobo_farm": {
+      "groups": {},
+      "standalone": {
+        "200018": [
+          1020,
+          810
+        ],
+        "300062": [
+          1550,
+          390
+        ]
+      }
+    },
+    "corel_valley": {
+      "groups": {},
+      "standalone": {
+        "300214": [
+          1111,
+          448
+        ],
+        "300215": [
+          793,
+          676
+        ],
+        "300216": [
+          1597,
+          550
+        ],
+        "300217": [
+          275,
+          510
+        ],
+        "300386": [
+          851,
+          454
+        ],
+        "300387": [
+          999,
+          584
+        ]
+      }
+    },
+    "cosmo_canyon": {
+      "groups": {},
+      "standalone": {
+        "300043": [
+          1257,
+          698
+        ],
+        "300046": [
+          1304,
+          454
+        ],
+        "300047": [
+          1334,
+          488
+        ],
+        "310057": [
+          201,
+          620
+        ],
+        "320090": [
+          530,
+          740
+        ],
+        "320091": [
+          560,
+          740
+        ],
+        "320092": [
+          1491,
+          502
+        ],
+        "320093": [
+          1630,
+          260
+        ]
+      }
+    },
+    "costa_del_sol": {
+      "groups": {},
+      "standalone": {
+        "200317": [
+          280,
+          280
+        ],
+        "200318": [
+          380,
+          250
+        ],
+        "200319": [
+          350,
+          340
+        ],
+        "200320": [
+          1150,
+          930
+        ],
+        "320069": [
+          640,
+          570
+        ],
+        "320070": [
+          670,
+          570
+        ],
+        "320071": [
+          640,
+          600
+        ],
+        "320072": [
+          670,
+          600
+        ],
+        "320073": [
+          1392,
+          856
+        ],
+        "320074": [
+          1660,
+          908
+        ]
+      }
+    },
+    "forgotten_capital": {
+      "groups": {},
+      "standalone": {
+        "200266": [
+          1637,
+          773
+        ],
+        "200267": [
+          281,
+          361
+        ],
+        "200286": [
+          1691,
+          477
+        ],
+        "300152": [
+          781,
+          257
+        ],
+        "300153": [
+          1747,
+          631
+        ],
+        "300155": [
+          527,
+          499
+        ],
+        "300218": [
+          1467,
+          395
+        ]
+      }
+    },
+    "fort_condor": {
+      "groups": {},
+      "standalone": {
+        "300038": [
+          790,
+          140
+        ],
+        "300040": [
+          790,
+          180
+        ],
+        "300041": [
+          830,
+          180
+        ],
+        "310011": [
+          1433,
+          452
+        ],
+        "310037": [
+          319,
+          174
+        ],
+        "310038": [
+          830,
+          140
+        ],
+        "320041": [
+          1410,
+          170
+        ],
+        "320042": [
+          1460,
+          170
+        ],
+        "320043": [
+          1410,
+          210
+        ],
+        "320044": [
+          1460,
+          210
+        ],
+        "320045": [
+          1610,
+          170
+        ]
+      }
+    },
+    "gaea_s_cliff": {
+      "groups": {},
+      "standalone": {
+        "200183": [
+          1569,
+          230
+        ],
+        "200184": [
+          1487,
+          892
+        ],
+        "300063": [
+          545,
+          630
+        ],
+        "300064": [
+          645,
+          788
+        ],
+        "300065": [
+          1353,
+          770
+        ],
+        "300066": [
+          1361,
+          618
+        ],
+        "310073": [
+          1279,
+          230
+        ]
+      }
+    },
+    "glacier": {
+      "groups": {},
+      "standalone": {
+        "200008": [
+          319,
+          604
+        ],
+        "200009": [
+          1127,
+          718
+        ],
+        "200010": [
+          1011,
+          682
+        ],
+        "200011": [
+          811,
+          656
+        ],
+        "300084": [
+          789,
+          186
+        ],
+        "300165": [
+          1681,
+          376
+        ],
+        "310039": [
+          1355,
+          172
+        ]
+      }
+    },
+    "gongaga": {
+      "groups": {},
+      "standalone": {
+        "300077": [
+          437,
+          186
+        ],
+        "300078": [
+          1705,
+          200
+        ],
+        "300079": [
+          653,
+          650
+        ],
+        "300080": [
+          1073,
+          130
+        ],
+        "320087": [
+          350,
+          440
+        ],
+        "320088": [
+          1120,
+          420
+        ],
+        "320089": [
+          240,
+          660
+        ]
+      }
+    },
+    "icicle_inn": {
+      "groups": {},
+      "standalone": {
+        "300237": [
+          1451,
+          226
+        ],
+        "300239": [
+          615,
+          474
+        ],
+        "300240": [
+          1470,
+          760
+        ],
+        "300241": [
+          1440,
+          760
+        ],
+        "310018": [
+          911,
+          308
+        ],
+        "310019": [
+          1477,
+          788
+        ],
+        "320107": [
+          399,
+          774
+        ]
+      }
+    },
+    "kalm": {
+      "groups": {},
+      "standalone": {
+        "200285": [
+          859,
+          254
+        ],
+        "200287": [
+          319,
+          410
+        ],
+        "200289": [
+          1011,
+          122
+        ],
+        "200290": [
+          1501,
+          914
+        ],
+        "200293": [
+          195,
+          748
+        ],
+        "200300": [
+          1790,
+          930
+        ],
+        "200301": [
+          1790,
+          960
+        ],
+        "200302": [
+          1820,
+          930
+        ],
+        "200304": [
+          1820,
+          960
+        ],
+        "300055": [
+          653,
+          146
+        ],
+        "310014": [
+          223,
+          992
+        ],
+        "310092": [
+          1850,
+          930
+        ],
+        "320033": [
+          1720,
+          310
+        ],
+        "320034": [
+          1750,
+          310
+        ],
+        "320035": [
+          1720,
+          340
+        ],
+        "320036": [
+          1750,
+          340
+        ],
+        "320037": [
+          1310,
+          350
+        ],
+        "320038": [
+          1340,
+          350
+        ],
+        "320039": [
+          1370,
+          350
+        ],
+        "320040": [
+          1637,
+          246
+        ]
+      }
+    },
+    "lower_junon": {
+      "groups": {},
+      "standalone": {
+        "200334": [
+          933,
+          308
+        ],
+        "200335": [
+          773,
+          162
+        ],
+        "320050": [
+          310,
+          460
+        ],
+        "320051": [
+          340,
+          460
+        ],
+        "320052": [
+          310,
+          490
+        ],
+        "320053": [
+          340,
+          490
+        ],
+        "320054": [
+          1615,
+          538
+        ],
+        "320060": [
+          1420,
+          260
+        ],
+        "320061": [
+          1450,
+          260
+        ],
+        "320062": [
+          1420,
+          290
+        ],
+        "320063": [
+          1450,
+          290
+        ]
+      }
+    },
+    "mansion": {
+      "groups": {},
+      "standalone": {
+        "300228": [
+          843,
+          761
+        ],
+        "300229": [
+          863,
+          931
+        ],
+        "300230": [
+          185,
+          191
+        ],
+        "300231": [
+          310,
+          100
+        ],
+        "300232": [
+          1155,
+          169
+        ],
+        "300233": [
+          1585,
+          961
+        ],
+        "310043": [
+          280,
+          100
+        ]
+      }
+    },
+    "mideel": {
+      "groups": {},
+      "standalone": {
+        "200371": [
+          213,
+          388
+        ],
+        "200372": [
+          1330,
+          660
+        ],
+        "320108": [
+          1300,
+          720
+        ],
+        "320109": [
+          1630,
+          890
+        ],
+        "320110": [
+          1660,
+          890
+        ],
+        "320111": [
+          1630,
+          920
+        ],
+        "320112": [
+          1270,
+          690
+        ],
+        "320113": [
+          1300,
+          690
+        ],
+        "320114": [
+          1270,
+          720
+        ]
+      }
+    },
+    "mtcorel": {
+      "groups": {},
+      "standalone": {
+        "200321": [
+          1003,
+          506
+        ],
+        "200322": [
+          907,
+          582
+        ],
+        "200323": [
+          797,
+          838
+        ],
+        "200324": [
+          891,
+          848
+        ],
+        "200325": [
+          999,
+          894
+        ],
+        "200326": [
+          1331,
+          582
+        ],
+        "200327": [
+          1451,
+          524
+        ],
+        "200328": [
+          1265,
+          522
+        ]
+      }
+    },
+    "mtnibel": {
+      "groups": {},
+      "standalone": {
+        "300169": [
+          1783,
+          802
+        ],
+        "300170": [
+          1657,
+          734
+        ],
+        "300186": [
+          943,
+          416
+        ],
+        "300187": [
+          791,
+          456
+        ],
+        "300189": [
+          1085,
+          900
+        ],
+        "300190": [
+          857,
+          798
+        ],
+        "300191": [
+          533,
+          896
+        ],
+        "310080": [
+          1025,
+          490
+        ]
+      }
+    },
+    "mythril_mines": {
+      "groups": {},
+      "standalone": {
+        "200298": [
+          1181,
+          1012
+        ],
+        "200299": [
+          1689,
+          142
+        ],
+        "300196": [
+          1779,
+          252
+        ],
+        "300197": [
+          1373,
+          258
+        ],
+        "300198": [
+          489,
+          228
+        ],
+        "300199": [
+          313,
+          368
+        ]
+      }
+    },
+    "nibelheim": {
+      "groups": {},
+      "standalone": {
+        "300177": [
+          381,
+          748
+        ],
+        "300179": [
+          1523,
+          518
+        ],
+        "300180": [
+          1681,
+          234
+        ],
+        "300182": [
+          530,
+          390
+        ],
+        "300193": [
+          1790,
+          910
+        ],
+        "310070": [
+          1690,
+          370
+        ],
+        "310071": [
+          1710,
+          370
+        ],
+        "310072": [
+          1710,
+          400
+        ],
+        "320094": [
+          360,
+          440
+        ],
+        "320095": [
+          390,
+          440
+        ],
+        "320096": [
+          360,
+          470
+        ],
+        "320097": [
+          390,
+          470
+        ]
+      }
+    },
+    "north_corel": {
+      "groups": {},
+      "standalone": {
+        "300172": [
+          1709,
+          600
+        ],
+        "300174": [
+          333,
+          578
+        ],
+        "300175": [
+          1100,
+          820
+        ],
+        "310017": [
+          1120,
+          820
+        ],
+        "320075": [
+          770,
+          760
+        ],
+        "320076": [
+          800,
+          760
+        ],
+        "320077": [
+          770,
+          790
+        ],
+        "320078": [
+          800,
+          790
+        ],
+        "320079": [
+          930,
+          680
+        ],
+        "320080": [
+          960,
+          680
+        ],
+        "320081": [
+          930,
+          710
+        ],
+        "320082": [
+          960,
+          710
+        ],
+        "320083": [
+          930,
+          850
+        ],
+        "320084": [
+          960,
+          850
+        ],
+        "320085": [
+          930,
+          880
+        ],
+        "320086": [
+          960,
+          880
+        ]
+      }
+    },
+    "rocket_town": {
+      "groups": {},
+      "standalone": {
+        "200280": [
+          1131,
+          262
+        ],
+        "200281": [
+          1461,
+          798
+        ],
+        "200291": [
+          406,
+          794
+        ],
+        "200292": [
+          690,
+          390
+        ],
+        "200351": [
+          980,
+          730
+        ],
+        "300208": [
+          950,
+          810
+        ],
+        "300209": [
+          980,
+          810
+        ],
+        "320098": [
+          450,
+          870
+        ],
+        "320099": [
+          480,
+          870
+        ],
+        "320100": [
+          450,
+          900
+        ],
+        "320101": [
+          480,
+          900
+        ],
+        "320102": [
+          580,
+          400
+        ]
+      }
+    },
+    "sleeping_forest": {
+      "groups": {},
+      "standalone": {
+        "300234": [
+          806,
+          628
+        ]
+      }
+    },
+    "under_junon": {
+      "groups": {},
+      "standalone": {
+        "300250": [
+          640,
+          654
+        ],
+        "320046": [
+          1300,
+          340
+        ],
+        "320047": [
+          1330,
+          340
+        ],
+        "320048": [
+          1300,
+          370
+        ],
+        "320049": [
+          1330,
+          370
+        ]
+      }
+    },
+    "upper_junon": {
+      "groups": {},
+      "standalone": {
+        "200329": [
+          345,
+          488
+        ],
+        "200330": [
+          509,
+          234
+        ],
+        "200331": [
+          633,
+          228
+        ],
+        "200332": [
+          431,
+          456
+        ],
+        "200333": [
+          389,
+          474
+        ],
+        "300100": [
+          209,
+          1018
+        ],
+        "300104": [
+          267,
+          1024
+        ],
+        "320055": [
+          1380,
+          640
+        ],
+        "320056": [
+          1220,
+          270
+        ],
+        "320057": [
+          1250,
+          270
+        ],
+        "320058": [
+          1220,
+          300
+        ],
+        "320059": [
+          1250,
+          300
+        ],
+        "320064": [
+          1410,
+          640
+        ]
+      }
+    },
+    "whirlwind_maze": {
+      "groups": {},
+      "standalone": {
+        "300248": [
+          1401,
+          112
+        ],
+        "300249": [
+          1481,
+          246
+        ],
+        "300398": [
+          1420,
+          80
+        ],
+        "310016": [
+          1450,
+          80
+        ],
+        "310074": [
+          1605,
+          982
+        ],
+        "310075": [
+          495,
+          624
+        ]
+      }
+    },
+    "world": {
+      "groups": {
+        "Ancient Forest": [
+          1000,
+          1880
+        ],
+        "Bone Village": [
+          1690,
+          940
+        ],
+        "Bosses": [
+          960,
+          770
+        ],
+        "Cargo Ship": [
+          1810,
+          1510
+        ],
+        "Chocobo Farm": [
+          2600,
+          1440
+        ],
+        "Chocobo Sage": [
+          1590,
+          720
+        ],
+        "Corel": [
+          1190,
+          1320
+        ],
+        "Corel Valley": [
+          1770,
+          860
+        ],
+        "Cosmo Canyon": [
+          970,
+          1830
+        ],
+        "Costa del Sol": [
+          1530,
+          1310
+        ],
+        "Forgotten Capital": [
+          1740,
+          790
+        ],
+        "Fort Condor": [
+          2210,
+          1780
+        ],
+        "Gaea's Cliff": [
+          1450,
+          460
+        ],
+        "Gelnika": [
+          1450,
+          1590
+        ],
+        "Gold Saucer Area": [
+          1310,
+          1620
+        ],
+        "Gongaga": [
+          1230,
+          1920
+        ],
+        "Great Glacier": [
+          1480,
+          550
+        ],
+        "HP MP": [
+          1260,
+          1140
+        ],
+        "Icicle Inn": [
+          1400,
+          740
+        ],
+        "Junon Lower": [
+          1850,
+          1510
+        ],
+        "Junon Upper": [
+          1890,
+          1510
+        ],
+        "Kalm": [
+          2190,
+          1180
+        ],
+        "Knights": [
+          2850,
+          130
+        ],
+        "Lucrecia's Cave": [
+          1110,
+          1490
+        ],
+        "Mideel": [
+          2400,
+          2080
+        ],
+        "Midgar (Fields)": [
+          1990,
+          1280
+        ],
+        "Midgar (Opening)": [
+          1990,
+          1230
+        ],
+        "Midgar (Shinra Bldg.)": [
+          2040,
+          1280
+        ],
+        "Midgar Sector 5": [
+          2040,
+          1230
+        ],
+        "Mime": [
+          580,
+          1350
+        ],
+        "Mt. Corel": [
+          1250,
+          1290
+        ],
+        "Mt. Nibel": [
+          1020,
+          1330
+        ],
+        "Mythril Mines": [
+          2330,
+          1620
+        ],
+        "Nibelheim": [
+          1000,
+          1430
+        ],
+        "Northern Cave": [
+          1410,
+          400
+        ],
+        "Northern Crater": [
+          1410,
+          350
+        ],
+        "Old Man": [
+          2170,
+          1390
+        ],
+        "Other Fields": [
+          2238,
+          908
+        ],
+        "Quadra": [
+          2980,
+          1480
+        ],
+        "Rocket Town": [
+          910,
+          1260
+        ],
+        "Shinra Mansion Basement": [
+          960,
+          1400
+        ],
+        "Sleeping Forest": [
+          1730,
+          880
+        ],
+        "Temple of the Ancients": [
+          1850,
+          1920
+        ],
+        "Under Junon": [
+          1850,
+          1550
+        ],
+        "Underwater Reactor": [
+          1760,
+          1490
+        ],
+        "Weapon Seller": [
+          1410,
+          1820
+        ],
+        "Whirlwind Maze": [
+          1460,
+          350
+        ],
+        "Wutai": [
+          400,
+          930
+        ]
+      },
+      "standalone": {}
+    },
+    "wutai": {
+      "groups": {},
+      "standalone": {
+        "300082": [
+          1471,
+          408
+        ],
+        "300265": [
+          1515,
+          148
+        ],
+        "310009": [
+          903,
+          882
+        ],
+        "310059": [
+          170,
+          590
+        ],
+        "310061": [
+          170,
+          620
+        ],
+        "310062": [
+          200,
+          620
+        ],
+        "310063": [
+          170,
+          650
+        ],
+        "310064": [
+          200,
+          650
+        ],
+        "310065": [
+          200,
+          590
+        ],
+        "320103": [
+          920,
+          970
+        ],
+        "320104": [
+          310,
+          150
+        ]
+      }
+    },
+    "wutai_da_chao": {
+      "groups": {},
+      "standalone": {
+        "200337": [
+          326,
+          496
+        ],
+        "200338": [
+          300,
+          356
+        ],
+        "200346": [
+          438,
+          240
+        ]
+      }
+    },
+    "wutai_mountain": {
+      "groups": {},
+      "standalone": {
+        "200344": [
+          955,
+          584
+        ],
+        "300081": [
+          1381,
+          494
+        ],
+        "300259": [
+          521,
+          356
+        ],
+        "300260": [
+          379,
+          332
+        ],
+        "300371": [
+          1559,
+          240
+        ]
+      }
+    }
+  }
 }
