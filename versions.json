@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "package_version": "0.4.6",
+      "download_url": "https://github.com/Wakamu/FF7pelago-poptracker/archive/refs/tags/0.4.6.zip",
+      "sha256": "A9A6DCFA2E9408D841FA45557E56F8900FB4950B59F4D748F6A97D21D63F725D",
+      "changelog": [
+        "See release changelog"
+      ]
+    },
+    {
+      "package_version": "0.4.5",
+      "download_url": "https://github.com/Wakamu/FF7pelago-poptracker/archive/refs/tags/0.4.5.zip",
+      "sha256": "DAE3DB3D0ABC610D9EB29A64D170EF4A472CBB9B9FB71C0FCF1D5F7AEF02D0DD",
+      "changelog": [
+        "First Release"
+      ]
+    }
+  ]
+}
