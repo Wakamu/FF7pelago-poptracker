@@ -5,7 +5,7 @@ PopTracker pack for [FF7pelago](https://github.com/blazerwazey/FF7pelago) with A
 ## Setup
 
 1. Install [PopTracker](https://github.com/black-sliver/PopTracker/releases).
-2. Copy this folder into your PopTracker `packs/` directory, or load it as an external pack.
+2. Download the latest Release of the pack and copy its folder into your PopTracker `packs/` directory, or load it as an external pack.
 3. Open the pack in PopTracker and enable **AP** autotracking from the menu.
 4. Connect to your Archipelago room while playing Final Fantasy VII.
 
@@ -15,7 +15,7 @@ PopTracker pack for [FF7pelago](https://github.com/blazerwazey/FF7pelago) with A
 python tools/generate_pack.py
 ```
 
-By default this reads APWorld data from `C:/Users/User/Projects/FF7pelago-ref/worlds/ff7`.
+By default this reads APWorld data from `worlds/ff7`.
 
 ## Pack contents
 
