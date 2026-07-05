@@ -2,7 +2,7 @@
     "name": "Final Fantasy VII Pelago",
     "game_name": "Final Fantasy VII",
     "package_uid": "ff7pelago-poptracker",
-    "package_version": "0.4.6",
+    "package_version": "0.4.7",
     "author": "FF7 Pelago Community",
     "platform": "pc",
     "variants": {
@@ -13,7 +13,7 @@
             ]
         }
     },
-    "version_url": "https://raw.githubusercontent.com/Wakamu/ff7pelago-poptracker/versions/versions.json",
+    "versions_url": "https://raw.githubusercontent.com/Wakamu/ff7pelago-poptracker/versions/versions.json",
     "min_poptracker_version": "0.25.5",
     "target_poptracker_version": "0.35.1"
 }
