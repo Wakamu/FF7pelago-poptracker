@@ -21,6 +21,7 @@ By default this reads APWorld data from `worlds/ff7`.
 
 - 447 tracked items
 - 498 tracked locations on the world map
+- Tabs for specific locations.
 - Archipelago item/location ID mappings in `scripts/autotracking/`
 
 Map checks are grouped into one pin per area on `images/worldmap.png` (hover/click the pin to see every check in that area).
@@ -53,3 +54,12 @@ When connected with AP autotracking, `onClear` reads the server's `slot_data` pa
 Without a connection, visibility falls back to the static option rules above.
 
 Edit `tools/logic_rules.py` / `scripts/logic.lua` and rerun the generator to adjust rules.
+
+### Missing Location tabs
+
+- Midgar
+- Underwater Reactor
+- Gelnika
+- Gold Saucer
+- North Crater
+- Temple of The Ancient
