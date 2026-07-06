@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "0.4.9",
+      "download_url": "https://github.com/Wakamu/FF7pelago-poptracker/archive/refs/tags/0.4.9.zip",
+      "sha256": "d7892244c118d18b2f686d9cc6c491ab048ef15bacf0c205146f0f5445a86f52",
+      "changelog": [
+        "Fixed logic issues for Northern Cave, Corel Valley, Forgotten Capital",
+        "Added missing maps for Northern Cave, Gelnika, Underwater Reactor"
+      ]
+    },
+    {
       "package_version": "0.4.8",
       "download_url": "https://github.com/Wakamu/FF7pelago-poptracker/archive/refs/tags/0.4.8.zip",
       "sha256": "5297d780f52bbc5a0e5cb9b55db3b342e351c2745a94e2f0c0feb8290a4a5147",
