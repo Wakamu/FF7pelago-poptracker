@@ -10,7 +10,6 @@ from collections import defaultdict
 from pathlib import Path
 
 from logic_rules import (
-    KEY_ITEM_PICKUP_LOCATIONS,
     boss_access_rules,
     build_item_codes,
     build_rule_sets,
@@ -25,12 +24,7 @@ from map_layout import (
     load_layout,
     standalone_proxy_name,
 )
-from slot_data_export import (
-    load_slot_constants,
-    write_logic_has_item_lua,
-    write_logic_pool_lua,
-    write_logic_seed_lua,
-)
+from slot_data_export import load_slot_constants, write_logic_pool_lua, write_logic_seed_lua
 from world_map_coords import (
     WORLD_MAP_ID,
     WORLD_MAP_IMAGE,
@@ -557,25 +551,11 @@ def generate(apworld: Path = DEFAULT_APWORLD) -> None:
         "LOCATION_MAPPING",
         location_mapping,
     )
-    key_item_pickups = {
-        item_codes[name]: [loc_id]
-        for name, loc_id in KEY_ITEM_PICKUP_LOCATIONS.items()
-    }
-    key_item_pickup_by_location = {
-        loc_id: int(item_codes[name].removeprefix("item_"))
-        for name, loc_id in KEY_ITEM_PICKUP_LOCATIONS.items()
-    }
     write_logic_seed_lua(
         ROOT / "scripts" / "logic_seed.lua",
         slot_constants,
         location_meta,
         endgame_item_codes(item_codes),
-        key_item_pickups,
-        key_item_pickup_by_location,
-    )
-    write_logic_has_item_lua(
-        ROOT / "scripts" / "logic_has_item.lua",
-        sorted(key_item_pickups.keys()),
     )
     write_logic_pool_lua(
         ROOT / "scripts" / "logic_pool.lua",

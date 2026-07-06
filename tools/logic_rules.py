@@ -44,16 +44,6 @@ TRAVERSAL_ITEMS = {
     "glacier_map": "Glacier Map",
 }
 
-# Field pickups that grant a key item without sending an AP item event.
-KEY_ITEM_PICKUP_LOCATIONS: dict[str, int] = {
-    "Lunar Harp": 310042,
-    "Basement Key": 310043,
-    "Snowboard": 310018,
-    "Glacier Map": 310019,
-    "Gold Ticket": 310045,
-    "Key to Sector 5": 310082,
-}
-
 
 def build_item_codes(items: list[dict]) -> dict[str, str]:
     return {item["name"]: f"item_{item['code']}" for item in items}
@@ -77,14 +67,6 @@ def endgame_item_codes(item_codes: dict[str, str]) -> list[str]:
         *[item_codes[name] for name in PARTY_MEMBERS],
         *[item_codes[name] for name in HUGE_MATERIA],
     ]
-
-
-def gate_item_ref(item_name: str, item_codes: dict[str, str]) -> str:
-    """AP item toggle or checked field pickup for key-item gates."""
-    if item_name in KEY_ITEM_PICKUP_LOCATIONS:
-        code = item_codes[item_name].removeprefix("item_")
-        return f"$ff7_has_item_{code}"
-    return item_codes[item_name]
 
 
 def build_rule_sets(item_codes: dict[str, str]) -> dict[str, list[list[str]]]:

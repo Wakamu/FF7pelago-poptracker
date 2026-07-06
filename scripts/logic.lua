@@ -59,53 +59,9 @@ function ff7_endgame()
     return 1
 end
 
-local function ff7_find_location_object(code)
-    if not code then
-        return nil
-    end
-    local obj = Tracker:FindObjectForCode(code)
-    if obj then
-        return obj
-    end
-    if code:sub(1, 1) ~= "@" then
-        return nil
-    end
-    if code:sub(-1) == "/" then
-        return Tracker:FindObjectForCode(code:sub(1, -2))
-    end
-    return Tracker:FindObjectForCode(code .. "/")
-end
-
-function ff7_location_checked(location_id)
-    if not LOCATION_MAPPING then
-        return false
-    end
-    local code = LOCATION_MAPPING[location_id]
-    local obj = ff7_find_location_object(code)
-    if not obj then
-        return false
-    end
-    if code and code:sub(1, 1) == "@" then
-        return obj.AvailableChestCount == 0
-    end
-    return obj.Active
-end
-
-function ff7_has_key_item(item_code)
+local function ff7_has_item(item_code)
     local obj = Tracker:FindObjectForCode(item_code)
-    if obj and obj.Active then
-        return true
-    end
-    local pickups = KEY_ITEM_PICKUPS[item_code]
-    if not pickups then
-        return false
-    end
-    for _, location_id in ipairs(pickups) do
-        if ff7_location_checked(location_id) then
-            return true
-        end
-    end
-    return false
+    return obj ~= nil and obj.Active
 end
 
 local OCEAN_ITEMS = {
@@ -145,35 +101,35 @@ function ff7_lunar_harp()
     if not ff7_has_any_item(OCEAN_ITEMS) then
         return 0
     end
-    return ff7_has_key_item("item_100527") and 1 or 0
+    return ff7_has_item("item_100527") and 1 or 0
 end
 
 function ff7_shinra_basement()
     if not ff7_has_any_item(OCEAN_ITEMS) then
         return 0
     end
-    return ff7_has_key_item("item_100528") and 1 or 0
+    return ff7_has_item("item_100528") and 1 or 0
 end
 
 function ff7_great_glacier()
     if not ff7_has_any_item(OCEAN_ITEMS) then
         return 0
     end
-    if not ff7_has_key_item("item_100546") then
+    if not ff7_has_item("item_100546") then
         return 0
     end
-    return ff7_has_key_item("item_100540") and 1 or 0
+    return ff7_has_item("item_100540") and 1 or 0
 end
 
 function ff7_gold_saucer()
     if not ff7_has_any_item(SUB_ITEMS) then
         return 0
     end
-    return ff7_has_key_item("item_100537") and 1 or 0
+    return ff7_has_item("item_100537") and 1 or 0
 end
 
 function ff7_key_sector_5()
-    return ff7_has_key_item("item_300503") and 1 or 0
+    return ff7_has_item("item_300503") and 1 or 0
 end
 
 local function set_option_toggle(code, active)
