@@ -204,9 +204,27 @@
     "img": "images/maps/mideel.png"
   },
   {
+    "name": "underwater_reactor",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/underwater_reactor.png"
+  },
+  {
+    "name": "gelnika",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/gelnika.png"
+  },
+  {
     "name": "ancient_forest",
     "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/ancient_forest.png"
+  },
+  {
+    "name": "northern_cave",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/northern_cave.png"
   }
 ]

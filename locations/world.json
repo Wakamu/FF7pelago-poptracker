@@ -499,7 +499,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300503"
+        "$ff7_key_sector_5"
       ]
     ],
     "visibility_rules": [
@@ -1948,19 +1948,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300502,item_100537"
-      ],
-      [
-        "item_300505,item_100537"
-      ],
-      [
-        "item_300506,item_100537"
-      ],
-      [
-        "item_300507,item_100537"
-      ],
-      [
-        "item_300501,item_100537"
+        "$ff7_gold_saucer"
       ]
     ],
     "visibility_rules": [
@@ -3453,16 +3441,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300505,item_100527"
-      ],
-      [
-        "item_300506,item_100527"
-      ],
-      [
-        "item_300507,item_100527"
-      ],
-      [
-        "item_300501,item_100527"
+        "$ff7_lunar_harp"
       ]
     ],
     "visibility_rules": [
@@ -3572,16 +3551,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300505,item_100546,item_100540"
-      ],
-      [
-        "item_300506,item_100546,item_100540"
-      ],
-      [
-        "item_300507,item_100546,item_100540"
-      ],
-      [
-        "item_300501,item_100546,item_100540"
+        "$ff7_great_glacier"
       ]
     ],
     "visibility_rules": [
@@ -4089,7 +4059,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300501,item_300600,item_300601,item_300602,item_300603,item_300604,item_300605,item_100520,item_100521,item_100522,item_100523"
+        "$ff7_endgame"
       ]
     ],
     "visibility_rules": [
@@ -4399,16 +4369,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300505,item_100527"
-      ],
-      [
-        "item_300506,item_100527"
-      ],
-      [
-        "item_300507,item_100527"
-      ],
-      [
-        "item_300501,item_100527"
+        "$ff7_lunar_harp"
       ]
     ],
     "visibility_rules": [
@@ -5325,6 +5286,44 @@
     ]
   },
   {
+    "name": "Key to Ancients",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "World Map - KeyItem: Key to Ancients",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310013"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1469,
+        "y": 1038,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310013"
+      ]
+    ]
+  },
+  {
     "name": "Knights",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_open.png",
@@ -5835,7 +5834,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300503"
+        "$ff7_key_sector_5"
       ]
     ],
     "visibility_rules": [
@@ -6083,7 +6082,7 @@
         "$ff7_linear"
       ],
       [
-        "item_300503"
+        "$ff7_key_sector_5"
       ]
     ],
     "visibility_rules": [
@@ -7013,6 +7012,44 @@
     ]
   },
   {
+    "name": "Red Submarine",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Red Submarine - KeyItem: Huge Materia (Underwater)",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310012"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1509,
+        "y": 1934,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300502"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310012"
+      ]
+    ]
+  },
+  {
     "name": "Shinra Mansion Basement",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_open.png",
@@ -7280,15 +7317,6 @@
     "overlay_background": "#CC000000",
     "sections": [
       {
-        "name": "Red Submarine - KeyItem: Huge Materia (Underwater)",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310012"
-          ]
-        ]
-      },
-      {
         "name": "Underwater Reactor - Battle Trumpet",
         "item_count": 1,
         "visibility_rules": [
@@ -7314,15 +7342,6 @@
             "$ff7_pool_200342"
           ]
         ]
-      },
-      {
-        "name": "World Map - KeyItem: Key to Ancients",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310013"
-          ]
-        ]
       }
     ],
     "map_locations": [
@@ -7343,9 +7362,6 @@
     ],
     "visibility_rules": [
       [
-        "$ff7_pool_310012"
-      ],
-      [
         "$ff7_pool_200343"
       ],
       [
@@ -7353,9 +7369,6 @@
       ],
       [
         "$ff7_pool_200342"
-      ],
-      [
-        "$ff7_pool_310013"
       ]
     ]
   },
@@ -7419,6 +7432,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200016"
@@ -7442,6 +7460,11 @@
         "y": 655,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7467,6 +7490,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300163"
@@ -7490,6 +7518,11 @@
         "y": 810,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7515,6 +7548,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310047"
@@ -7538,6 +7576,11 @@
         "y": 769,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7563,6 +7606,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320011"
@@ -7586,6 +7634,11 @@
         "y": 330,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7611,6 +7664,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320013"
@@ -7634,6 +7692,11 @@
         "y": 360,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7659,6 +7722,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320015"
@@ -7682,6 +7750,11 @@
         "y": 370,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7707,6 +7780,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320017"
@@ -7730,6 +7808,11 @@
         "y": 400,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7755,6 +7838,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar Sector 5"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320019"
@@ -7778,6 +7866,11 @@
         "y": 160,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7803,6 +7896,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200013"
@@ -7826,6 +7924,11 @@
         "y": 984,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7851,6 +7954,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300029"
@@ -7874,6 +7982,11 @@
         "y": 377,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7899,6 +8012,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300297"
@@ -7922,6 +8040,11 @@
         "y": 156,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7947,6 +8070,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310020"
@@ -7970,6 +8098,11 @@
         "y": 390,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -7995,6 +8128,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310022"
@@ -8018,6 +8156,11 @@
         "y": 420,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8043,6 +8186,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310024"
@@ -8066,6 +8214,11 @@
         "y": 340,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8091,6 +8244,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310026"
@@ -8114,6 +8272,11 @@
         "y": 570,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8139,6 +8302,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310028"
@@ -8162,6 +8330,11 @@
         "y": 570,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8187,6 +8360,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310030"
@@ -8210,6 +8388,11 @@
         "y": 800,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8235,6 +8418,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310032"
@@ -8258,6 +8446,11 @@
         "y": 570,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8283,6 +8476,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310034"
@@ -8306,6 +8504,11 @@
         "y": 570,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8331,6 +8534,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310036"
@@ -8354,6 +8562,11 @@
         "y": 750,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8379,6 +8592,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310067"
@@ -8402,6 +8620,11 @@
         "y": 160,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8427,6 +8650,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320021"
@@ -8450,6 +8678,11 @@
         "y": 190,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8475,6 +8708,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320023"
@@ -8498,6 +8736,11 @@
         "y": 540,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8523,6 +8766,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 6)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320025"
@@ -8546,6 +8794,11 @@
         "y": 751,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8571,6 +8824,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200002"
@@ -8594,6 +8852,11 @@
         "y": 373,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8619,6 +8882,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200004"
@@ -8642,6 +8910,11 @@
         "y": 463,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8667,6 +8940,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200006"
@@ -8690,6 +8968,11 @@
         "y": 163,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8715,6 +8998,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300031"
@@ -8738,6 +9026,11 @@
         "y": 909,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Train Graveyard)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8763,6 +9056,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320000"
@@ -8786,6 +9084,11 @@
         "y": 900,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8811,6 +9114,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320002"
@@ -8834,6 +9142,11 @@
         "y": 930,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8859,6 +9172,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320004"
@@ -8882,6 +9200,11 @@
         "y": 860,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8907,6 +9230,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320006"
@@ -8930,6 +9258,11 @@
         "y": 890,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -8955,6 +9288,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320008"
@@ -8978,6 +9316,11 @@
         "y": 380,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9003,6 +9346,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320010"
@@ -9026,6 +9374,11 @@
         "y": 210,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9051,6 +9404,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320027"
@@ -9074,6 +9432,11 @@
         "y": 240,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Sector 7)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9099,6 +9462,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200135"
@@ -9122,6 +9490,11 @@
         "y": 454,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9147,6 +9520,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300008"
@@ -9170,6 +9548,11 @@
         "y": 530,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9195,6 +9578,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300012"
@@ -9218,6 +9606,11 @@
         "y": 280,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9243,6 +9636,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300014"
@@ -9266,6 +9664,11 @@
         "y": 310,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9291,6 +9694,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300017"
@@ -9314,6 +9722,11 @@
         "y": 40,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9339,6 +9752,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300022"
@@ -9362,6 +9780,11 @@
         "y": 60,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9387,6 +9810,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300284"
@@ -9410,6 +9838,11 @@
         "y": 390,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9435,6 +9868,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300286"
@@ -9458,6 +9896,11 @@
         "y": 790,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9483,6 +9926,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310002"
@@ -9506,6 +9954,11 @@
         "y": 950,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9531,6 +9984,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310004"
@@ -9554,6 +10012,11 @@
         "y": 980,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9579,6 +10042,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310006"
@@ -9602,6 +10070,11 @@
         "y": 959,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9627,6 +10100,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310008"
@@ -9650,6 +10128,11 @@
         "y": 560,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9675,6 +10158,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310041"
@@ -9698,6 +10186,11 @@
         "y": 204,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9723,6 +10216,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310049"
@@ -9746,6 +10244,11 @@
         "y": 280,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9771,6 +10274,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310051"
@@ -9794,6 +10302,11 @@
         "y": 270,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9819,6 +10332,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310053"
@@ -9842,6 +10360,11 @@
         "y": 100,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9867,6 +10390,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310055"
@@ -9890,6 +10418,11 @@
         "y": 240,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9915,6 +10448,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310076"
@@ -9938,6 +10476,11 @@
         "y": 350,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -9963,6 +10506,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310078"
@@ -9986,6 +10534,11 @@
         "y": 310,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10011,6 +10564,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320029"
@@ -10034,6 +10592,11 @@
         "y": 480,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10059,6 +10622,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320031"
@@ -10082,6 +10650,11 @@
         "y": 510,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Midgar (Shinra Bldg.)"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10107,6 +10680,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200285"
@@ -10130,6 +10708,11 @@
         "y": 410,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10155,6 +10738,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200289"
@@ -10178,6 +10766,11 @@
         "y": 914,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10203,6 +10796,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200293"
@@ -10226,6 +10824,11 @@
         "y": 930,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10251,6 +10854,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200301"
@@ -10274,6 +10882,11 @@
         "y": 930,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10299,6 +10912,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200304"
@@ -10322,6 +10940,11 @@
         "y": 146,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10347,6 +10970,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310014"
@@ -10370,6 +10998,11 @@
         "y": 930,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10395,6 +11028,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320033"
@@ -10418,6 +11056,11 @@
         "y": 310,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10443,6 +11086,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320035"
@@ -10466,6 +11114,11 @@
         "y": 340,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10491,6 +11144,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320037"
@@ -10514,6 +11172,11 @@
         "y": 350,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10539,6 +11202,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320039"
@@ -10562,6 +11230,11 @@
         "y": 246,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Kalm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10587,6 +11260,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Chocobo Farm"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200018"
@@ -10610,6 +11288,11 @@
         "y": 390,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Chocobo Farm"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10635,6 +11318,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200298"
@@ -10658,6 +11346,11 @@
         "y": 142,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10683,6 +11376,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300196"
@@ -10706,6 +11404,11 @@
         "y": 258,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10731,6 +11434,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300198"
@@ -10754,6 +11462,11 @@
         "y": 368,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mythril Mines"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10779,6 +11492,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300038"
@@ -10802,6 +11520,11 @@
         "y": 180,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10827,6 +11550,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300041"
@@ -10850,6 +11578,11 @@
         "y": 452,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10875,6 +11608,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310037"
@@ -10898,6 +11636,11 @@
         "y": 140,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10923,6 +11666,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320041"
@@ -10946,6 +11694,11 @@
         "y": 170,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
     ],
     "visibility_rules": [
       [
@@ -10971,6 +11724,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320043"
@@ -10994,6 +11752,11 @@
         "y": 210,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11019,6 +11782,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Fort Condor"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320045"
@@ -11042,6 +11810,11 @@
         "y": 654,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Under Junon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11067,6 +11840,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Under Junon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320046"
@@ -11090,6 +11868,11 @@
         "y": 340,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Under Junon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11115,6 +11898,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Under Junon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320048"
@@ -11138,6 +11926,11 @@
         "y": 370,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Under Junon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11163,6 +11956,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200329"
@@ -11186,6 +11984,11 @@
         "y": 234,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11211,6 +12014,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200331"
@@ -11234,6 +12042,11 @@
         "y": 456,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11259,6 +12072,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200333"
@@ -11282,6 +12100,11 @@
         "y": 1018,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11307,6 +12130,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300104"
@@ -11330,6 +12158,11 @@
         "y": 640,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11355,6 +12188,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320056"
@@ -11378,6 +12216,11 @@
         "y": 270,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11403,6 +12246,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320058"
@@ -11426,6 +12274,11 @@
         "y": 300,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11451,6 +12304,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Upper"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320064"
@@ -11474,6 +12332,11 @@
         "y": 308,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11499,6 +12362,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200335"
@@ -11522,6 +12390,11 @@
         "y": 460,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11547,6 +12420,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320051"
@@ -11570,6 +12448,11 @@
         "y": 490,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11595,6 +12478,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320053"
@@ -11618,6 +12506,11 @@
         "y": 538,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11643,6 +12536,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320060"
@@ -11666,6 +12564,11 @@
         "y": 260,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11691,6 +12594,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320062"
@@ -11714,6 +12622,11 @@
         "y": 290,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Junon Lower"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11739,6 +12652,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200317"
@@ -11762,6 +12680,11 @@
         "y": 250,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11787,6 +12710,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200319"
@@ -11810,6 +12738,11 @@
         "y": 930,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11835,6 +12768,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320069"
@@ -11858,6 +12796,11 @@
         "y": 570,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11883,6 +12826,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320071"
@@ -11906,6 +12854,11 @@
         "y": 600,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11931,6 +12884,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320073"
@@ -11954,6 +12912,11 @@
         "y": 908,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Costa del Sol"
+      ]
     ],
     "visibility_rules": [
       [
@@ -11979,6 +12942,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200321"
@@ -12002,6 +12970,11 @@
         "y": 582,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12027,6 +13000,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200323"
@@ -12050,6 +13028,11 @@
         "y": 848,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12075,6 +13058,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200325"
@@ -12098,6 +13086,11 @@
         "y": 582,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12123,6 +13116,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200327"
@@ -12146,6 +13144,11 @@
         "y": 522,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12171,6 +13174,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300172"
@@ -12194,6 +13202,11 @@
         "y": 578,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12219,6 +13232,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300175"
@@ -12242,6 +13260,11 @@
         "y": 820,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12267,6 +13290,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320075"
@@ -12290,6 +13318,11 @@
         "y": 760,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12315,6 +13348,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320077"
@@ -12338,6 +13376,11 @@
         "y": 790,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12363,6 +13406,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320079"
@@ -12386,6 +13434,11 @@
         "y": 680,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12411,6 +13464,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320081"
@@ -12434,6 +13492,11 @@
         "y": 710,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12459,6 +13522,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320083"
@@ -12482,6 +13550,11 @@
         "y": 850,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12507,6 +13580,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320085"
@@ -12530,6 +13608,11 @@
         "y": 880,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12555,6 +13638,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300077"
@@ -12578,6 +13666,11 @@
         "y": 200,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12603,6 +13696,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300079"
@@ -12626,6 +13724,11 @@
         "y": 130,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12651,6 +13754,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320087"
@@ -12674,6 +13782,11 @@
         "y": 420,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12699,6 +13812,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gongaga"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320089"
@@ -12722,6 +13840,11 @@
         "y": 698,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12747,6 +13870,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300046"
@@ -12770,6 +13898,11 @@
         "y": 488,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12795,6 +13928,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310057"
@@ -12818,6 +13956,11 @@
         "y": 740,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12843,6 +13986,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320091"
@@ -12866,6 +14014,11 @@
         "y": 502,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12891,6 +14044,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320093"
@@ -12914,6 +14072,11 @@
         "y": 800,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12939,6 +14102,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300070"
@@ -12962,6 +14130,11 @@
         "y": 348,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -12987,6 +14160,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300073"
@@ -13010,6 +14188,11 @@
         "y": 376,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13035,6 +14218,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Cosmo Canyon"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300075"
@@ -13058,6 +14246,11 @@
         "y": 748,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13083,6 +14276,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300179"
@@ -13106,6 +14304,11 @@
         "y": 234,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13131,6 +14334,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300182"
@@ -13154,6 +14362,11 @@
         "y": 910,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13179,6 +14392,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310070"
@@ -13202,6 +14420,11 @@
         "y": 370,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13227,6 +14450,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310072"
@@ -13250,6 +14478,11 @@
         "y": 440,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13275,6 +14508,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320095"
@@ -13298,6 +14536,11 @@
         "y": 470,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13323,6 +14566,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Nibelheim"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320097"
@@ -13346,6 +14594,11 @@
         "y": 761,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13371,6 +14624,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300229"
@@ -13394,6 +14652,11 @@
         "y": 191,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13419,6 +14682,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300231"
@@ -13442,6 +14710,11 @@
         "y": 169,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13467,6 +14740,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300233"
@@ -13490,6 +14768,11 @@
         "y": 100,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Shinra Mansion Basement"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13515,6 +14798,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300169"
@@ -13538,6 +14826,11 @@
         "y": 734,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13563,6 +14856,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300186"
@@ -13586,6 +14884,11 @@
         "y": 456,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13611,6 +14914,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300189"
@@ -13634,6 +14942,11 @@
         "y": 798,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13659,6 +14972,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300191"
@@ -13682,6 +15000,11 @@
         "y": 490,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mt. Nibel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13707,6 +15030,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200280"
@@ -13730,6 +15058,11 @@
         "y": 798,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13755,6 +15088,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200291"
@@ -13778,6 +15116,11 @@
         "y": 390,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13803,6 +15146,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200351"
@@ -13826,6 +15174,11 @@
         "y": 810,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13851,6 +15204,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300209"
@@ -13874,6 +15232,11 @@
         "y": 870,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13899,6 +15262,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320099"
@@ -13922,6 +15290,11 @@
         "y": 900,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13947,6 +15320,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320101"
@@ -13970,6 +15348,11 @@
         "y": 400,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Rocket Town"
+      ]
     ],
     "visibility_rules": [
       [
@@ -13995,6 +15378,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300082"
@@ -14018,6 +15406,11 @@
         "y": 148,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14043,6 +15436,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310009"
@@ -14066,6 +15464,11 @@
         "y": 590,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14091,6 +15494,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310061"
@@ -14114,6 +15522,11 @@
         "y": 620,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14139,6 +15552,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310063"
@@ -14162,6 +15580,11 @@
         "y": 650,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14187,6 +15610,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310065"
@@ -14210,6 +15638,11 @@
         "y": 970,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14235,6 +15668,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320104"
@@ -14258,6 +15696,11 @@
         "y": 584,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14283,6 +15726,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300081"
@@ -14306,6 +15754,11 @@
         "y": 356,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14331,6 +15784,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300260"
@@ -14354,6 +15812,11 @@
         "y": 240,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14379,6 +15842,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200337"
@@ -14402,6 +15870,11 @@
         "y": 356,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14427,6 +15900,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Wutai"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200346"
@@ -14450,6 +15928,11 @@
         "y": 628,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Sleeping Forest"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14475,6 +15958,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300214"
@@ -14498,6 +15986,11 @@
         "y": 676,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14523,6 +16016,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300216"
@@ -14546,6 +16044,11 @@
         "y": 510,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14571,6 +16074,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300386"
@@ -14594,6 +16102,11 @@
         "y": 584,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Corel Valley"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14619,6 +16132,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200266"
@@ -14642,6 +16160,11 @@
         "y": 361,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14667,6 +16190,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200286"
@@ -14690,6 +16218,11 @@
         "y": 257,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14715,6 +16248,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300153"
@@ -14738,6 +16276,11 @@
         "y": 499,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14763,6 +16306,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Forgotten Capital"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300218"
@@ -14786,6 +16334,11 @@
         "y": 226,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14811,6 +16364,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300239"
@@ -14834,6 +16392,11 @@
         "y": 760,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14859,6 +16422,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300241"
@@ -14882,6 +16450,11 @@
         "y": 308,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14907,6 +16480,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310019"
@@ -14930,6 +16508,11 @@
         "y": 774,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Icicle Inn"
+      ]
     ],
     "visibility_rules": [
       [
@@ -14955,6 +16538,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200008"
@@ -14978,6 +16566,11 @@
         "y": 718,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15003,6 +16596,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200010"
@@ -15026,6 +16624,11 @@
         "y": 656,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15051,6 +16654,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300084"
@@ -15074,6 +16682,11 @@
         "y": 376,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15099,6 +16712,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Great Glacier"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310039"
@@ -15122,6 +16740,11 @@
         "y": 230,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15147,6 +16770,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200184"
@@ -15170,6 +16798,11 @@
         "y": 630,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15195,6 +16828,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300064"
@@ -15218,6 +16856,11 @@
         "y": 770,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15243,6 +16886,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300066"
@@ -15266,6 +16914,11 @@
         "y": 230,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Gaea's Cliff"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15291,6 +16944,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300248"
@@ -15314,6 +16972,11 @@
         "y": 246,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15339,6 +17002,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300398"
@@ -15362,6 +17030,11 @@
         "y": 80,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15387,6 +17060,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310074"
@@ -15410,6 +17088,11 @@
         "y": 624,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Whirlwind Maze"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15435,6 +17118,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_200371"
@@ -15458,6 +17146,11 @@
         "y": 660,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15483,6 +17176,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320108"
@@ -15506,6 +17204,11 @@
         "y": 890,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15531,6 +17234,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320110"
@@ -15554,6 +17262,11 @@
         "y": 920,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15579,6 +17292,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320112"
@@ -15602,6 +17320,11 @@
         "y": 690,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15627,9 +17350,391 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Mideel"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_320114"
+      ]
+    ]
+  },
+  {
+    "name": "Underwater Reactor - KeyItem: Leviathan Scales [underwater_reactor]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Underwater Reactor/Underwater Reactor - KeyItem: Leviathan Scales"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "underwater_reactor",
+        "x": 1021,
+        "y": 280,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Underwater Reactor"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200336"
+      ]
+    ]
+  },
+  {
+    "name": "Underwater Reactor - Scimitar [underwater_reactor]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Underwater Reactor/Underwater Reactor - Scimitar"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "underwater_reactor",
+        "x": 1177,
+        "y": 328,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Underwater Reactor"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200342"
+      ]
+    ]
+  },
+  {
+    "name": "Underwater Reactor - Battle Trumpet [underwater_reactor]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Underwater Reactor/Underwater Reactor - Battle Trumpet"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "underwater_reactor",
+        "x": 1355,
+        "y": 606,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Underwater Reactor"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200343"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika Research Room - Double Cut [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika Research Room - Double Cut"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 1560,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200295"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika Cargo Room - Highwind [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika Cargo Room - Highwind"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 749,
+        "y": 516,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200296"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Hades [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Hades"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 737,
+        "y": 362,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310083"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Outsider [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Outsider"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 479,
+        "y": 490,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310084"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Escort Guard [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Escort Guard"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 1581,
+        "y": 478,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310085"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Conformer [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Conformer"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 1238,
+        "y": 310,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310086"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Spirit Lance [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Spirit Lance"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 831,
+        "y": 232,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310087"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika - Heaven's Cloud [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika - Heaven's Cloud"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 1051,
+        "y": 902,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310088"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika Research Room - Megalixir [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika Research Room - Megalixir"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 1590,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310089"
+      ]
+    ]
+  },
+  {
+    "name": "Sunken Gelnika Cargo Room - Megalixir [gelnika]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Gelnika/Sunken Gelnika Cargo Room - Megalixir"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "gelnika",
+        "x": 324,
+        "y": 248,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Gelnika"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310090"
       ]
     ]
   },
@@ -15650,6 +17755,11 @@
         "y": 715,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15675,6 +17785,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300001"
@@ -15698,6 +17813,11 @@
         "y": 721,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15723,6 +17843,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300004"
@@ -15746,6 +17871,11 @@
         "y": 313,
         "size": 18
       }
+    ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
     ],
     "visibility_rules": [
       [
@@ -15771,6 +17901,11 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_300006"
@@ -15795,9 +17930,1116 @@
         "size": 18
       }
     ],
+    "access_rules": [
+      [
+        "@Ancient Forest"
+      ]
+    ],
     "visibility_rules": [
       [
         "$ff7_pool_310081"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Elixir #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Elixir #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1067,
+        "y": 874,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200026"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - X-Potion #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - X-Potion #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 917,
+        "y": 1002,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200027"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Turbo Ether #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Turbo Ether #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1277,
+        "y": 1030,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200028"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Vaccine #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Vaccine #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1369,
+        "y": 986,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200029"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Magic Source #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Magic Source #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1085,
+        "y": 274,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200288"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Guard Source #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Guard Source #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1135,
+        "y": 250,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200294"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - HP Absorb [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - HP Absorb"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1011,
+        "y": 62,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200297"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Megalixir #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Megalixir #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1723,
+        "y": 156,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200358"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Power Source #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Power Source #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1883,
+        "y": 94,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200359"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Guard Source #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Guard Source #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1787,
+        "y": 324,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200360"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Magic Source #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Magic Source #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1709,
+        "y": 846,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200361"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Remedy #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Remedy #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1727,
+        "y": 766,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200362"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Hero Drink #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Hero Drink #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 2267,
+        "y": 1030,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200363"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Vaccine #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Vaccine #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1943,
+        "y": 996,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200364"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Shield [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Shield"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 2019,
+        "y": 976,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200365"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - W-Magic #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - W-Magic #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1975,
+        "y": 1278,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200367"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Imperial Guard [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Imperial Guard"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1945,
+        "y": 1044,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200368"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Mind Source #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Mind Source #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1473,
+        "y": 146,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200369"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Hero Drink #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Hero Drink #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1481,
+        "y": 334,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200370"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Save Crystal [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Save Crystal"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 667,
+        "y": 64,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300113"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Guard Source #3 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Guard Source #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 647,
+        "y": 152,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300114"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Mind Source #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Mind Source #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1157,
+        "y": 324,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300115"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Power Source #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Power Source #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 937,
+        "y": 54,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300116"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Elixir #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Elixir #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 995,
+        "y": 122,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300117"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Elixir #3 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Elixir #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 2569,
+        "y": 1074,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300119"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Mystile [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Mystile"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 2479,
+        "y": 1044,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300120"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Speed Source #1 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Speed Source #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 247,
+        "y": 694,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300121"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Tetra Elemental [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Tetra Elemental"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 325,
+        "y": 806,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300122"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Megalixir #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Megalixir #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 157,
+        "y": 616,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300124"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Remedy #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Remedy #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 927,
+        "y": 924,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300128"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Magic Counter [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Magic Counter"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1195,
+        "y": 1028,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300129"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Speed Source #3 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Speed Source #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1497,
+        "y": 1184,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300130"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Turbo Ether #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Turbo Ether #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1641,
+        "y": 1204,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300131"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - X-Potion #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - X-Potion #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1639,
+        "y": 1084,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300132"
+      ]
+    ]
+  },
+  {
+    "name": "Inside Northern Cave - Mega All [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Inside Northern Cave - Mega All"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1577,
+        "y": 1200,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300133"
+      ]
+    ]
+  },
+  {
+    "name": "Bottom of Northern Cave - Luck Source [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Bottom of Northern Cave - Luck Source"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1039,
+        "y": 1336,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300151"
+      ]
+    ]
+  },
+  {
+    "name": "Northern Cave - Megalixir #2 [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Northern Cave - Megalixir #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 387,
+        "y": 600,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310091"
+      ]
+    ]
+  },
+  {
+    "name": "Northern Cave - Counter [northern_cave]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Northern Cave/Northern Cave - Counter"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "northern_cave",
+        "x": 1965,
+        "y": 1376,
+        "size": 18
+      }
+    ],
+    "access_rules": [
+      [
+        "@Northern Cave"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310096"
       ]
     ]
   }

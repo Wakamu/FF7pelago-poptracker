@@ -57,9 +57,6 @@ Edit `tools/logic_rules.py` / `scripts/logic.lua` and rerun the generator to adj
 
 ### Missing Location tabs
 
-- Midgar
-- Underwater Reactor
-- Gelnika
+- Midgar (Opening)
 - Gold Saucer
-- North Crater
 - Temple of The Ancient

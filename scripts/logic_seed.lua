@@ -189,6 +189,38 @@ GOLD_SAUCER_REGIONS = {
     ['Shops - Gold Saucer Area'] = true,
 }
 
+ENDGAME_ITEM_CODES = {
+    'item_300501',
+    'item_300600',
+    'item_300601',
+    'item_300602',
+    'item_300603',
+    'item_300604',
+    'item_300605',
+    'item_100520',
+    'item_100521',
+    'item_100522',
+    'item_100523',
+}
+
+KEY_ITEM_PICKUPS = {
+    ['item_100527'] = { 310042 },
+    ['item_100528'] = { 310043 },
+    ['item_100537'] = { 310045 },
+    ['item_100540'] = { 310019 },
+    ['item_100546'] = { 310018 },
+    ['item_300503'] = { 310082 },
+}
+
+KEY_ITEM_PICKUP_BY_LOCATION = {
+    [310018] = 100546,
+    [310019] = 100540,
+    [310042] = 100527,
+    [310043] = 100528,
+    [310045] = 100537,
+    [310082] = 300503,
+}
+
 LOCATION_META = {
     [200000] = { region = 'Midgar (Opening)' },
     [200001] = { region = 'Midgar (Opening)' },

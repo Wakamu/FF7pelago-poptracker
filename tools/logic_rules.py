@@ -44,6 +44,16 @@ TRAVERSAL_ITEMS = {
     "glacier_map": "Glacier Map",
 }
 
+# Field pickups that grant a key item without sending an AP item event.
+KEY_ITEM_PICKUP_LOCATIONS: dict[str, int] = {
+    "Lunar Harp": 310042,
+    "Basement Key": 310043,
+    "Snowboard": 310018,
+    "Glacier Map": 310019,
+    "Gold Ticket": 310045,
+    "Key to Sector 5": 310082,
+}
+
 
 def build_item_codes(items: list[dict]) -> dict[str, str]:
     return {item["name"]: f"item_{item['code']}" for item in items}
@@ -59,6 +69,22 @@ def rule_and(*codes: str) -> list[list[str]]:
 
 def rule_each_with_all(bases: tuple[str, ...], *required: str) -> list[list[str]]:
     return [[",".join((base, *required))] for base in bases]
+
+
+def endgame_item_codes(item_codes: dict[str, str]) -> list[str]:
+    return [
+        item_codes[TRAVERSAL_ITEMS["highwind"]],
+        *[item_codes[name] for name in PARTY_MEMBERS],
+        *[item_codes[name] for name in HUGE_MATERIA],
+    ]
+
+
+def gate_item_ref(item_name: str, item_codes: dict[str, str]) -> str:
+    """AP item toggle or checked field pickup for key-item gates."""
+    if item_name in KEY_ITEM_PICKUP_LOCATIONS:
+        code = item_codes[item_name].removeprefix("item_")
+        return f"$ff7_has_item_{code}"
+    return item_codes[item_name]
 
 
 def build_rule_sets(item_codes: dict[str, str]) -> dict[str, list[list[str]]]:
@@ -92,12 +118,6 @@ def build_rule_sets(item_codes: dict[str, str]) -> dict[str, list[list[str]]]:
     underwater = (ref(TRAVERSAL_ITEMS["submarine"]),)
     highwind = (ref(TRAVERSAL_ITEMS["highwind"]),)
 
-    endgame = rule_and(
-        ref(TRAVERSAL_ITEMS["highwind"]),
-        *[ref(name) for name in PARTY_MEMBERS],
-        *[ref(name) for name in HUGE_MATERIA],
-    )
-
     return {
         "none": [],
         "mountain": rule_or(*mountain),
@@ -106,16 +126,12 @@ def build_rule_sets(item_codes: dict[str, str]) -> dict[str, list[list[str]]]:
         "plateau": rule_or(*plateau),
         "underwater": rule_or(*underwater),
         "highwind": rule_or(*highwind),
-        "gold_saucer": rule_each_with_all(sub, ref(TRAVERSAL_ITEMS["gold_ticket"])),
-        "shinra_basement": rule_each_with_all(ocean, ref(TRAVERSAL_ITEMS["basement_key"])),
-        "lunar_harp": rule_each_with_all(ocean, ref(TRAVERSAL_ITEMS["lunar_harp"])),
-        "great_glacier": rule_each_with_all(
-            ocean,
-            ref(TRAVERSAL_ITEMS["snowboard"]),
-            ref(TRAVERSAL_ITEMS["glacier_map"]),
-        ),
-        "key_sector_5": rule_or(ref(TRAVERSAL_ITEMS["key_sector_5"])),
-        "endgame": endgame,
+        "gold_saucer": [["$ff7_gold_saucer"]],
+        "shinra_basement": [["$ff7_shinra_basement"]],
+        "lunar_harp": [["$ff7_lunar_harp"]],
+        "great_glacier": [["$ff7_great_glacier"]],
+        "key_sector_5": [["$ff7_key_sector_5"]],
+        "endgame": [["$ff7_endgame"]],
     }
 
 

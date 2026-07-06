@@ -482,11 +482,38 @@
         }
       },
       {
+        "title": "Underwater Reactor",
+        "content": {
+          "type": "map",
+          "maps": [
+            "underwater_reactor"
+          ]
+        }
+      },
+      {
+        "title": "Gelnika",
+        "content": {
+          "type": "map",
+          "maps": [
+            "gelnika"
+          ]
+        }
+      },
+      {
         "title": "Ancient Forest",
         "content": {
           "type": "map",
           "maps": [
             "ancient_forest"
+          ]
+        }
+      },
+      {
+        "title": "Northern Cave",
+        "content": {
+          "type": "map",
+          "maps": [
+            "northern_cave"
           ]
         }
       }

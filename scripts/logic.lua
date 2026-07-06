@@ -45,7 +45,135 @@ function ff7_location_in_pool(location_id)
     if USE_EXACT_POOL then
         return POOL[location_id] == true
     end
-    return ff7_static_in_pool(location_id)
+    -- No AP seed pool yet: show every check. Pool filtering is AP-only.
+    return true
+end
+
+function ff7_endgame()
+    for _, code in ipairs(ENDGAME_ITEM_CODES) do
+        local obj = Tracker:FindObjectForCode(code)
+        if obj == nil or not obj.Active then
+            return 0
+        end
+    end
+    return 1
+end
+
+local function ff7_find_location_object(code)
+    if not code then
+        return nil
+    end
+    local obj = Tracker:FindObjectForCode(code)
+    if obj then
+        return obj
+    end
+    if code:sub(1, 1) ~= "@" then
+        return nil
+    end
+    if code:sub(-1) == "/" then
+        return Tracker:FindObjectForCode(code:sub(1, -2))
+    end
+    return Tracker:FindObjectForCode(code .. "/")
+end
+
+function ff7_location_checked(location_id)
+    if not LOCATION_MAPPING then
+        return false
+    end
+    local code = LOCATION_MAPPING[location_id]
+    local obj = ff7_find_location_object(code)
+    if not obj then
+        return false
+    end
+    if code and code:sub(1, 1) == "@" then
+        return obj.AvailableChestCount == 0
+    end
+    return obj.Active
+end
+
+function ff7_has_key_item(item_code)
+    local obj = Tracker:FindObjectForCode(item_code)
+    if obj and obj.Active then
+        return true
+    end
+    local pickups = KEY_ITEM_PICKUPS[item_code]
+    if not pickups then
+        return false
+    end
+    for _, location_id in ipairs(pickups) do
+        if ff7_location_checked(location_id) then
+            return true
+        end
+    end
+    return false
+end
+
+local OCEAN_ITEMS = {
+    "item_300505", -- Blue Chocobo
+    "item_300506", -- Black Chocobo
+    "item_300507", -- Gold Chocobo
+    "item_300501", -- Highwind
+}
+
+local SUB_ITEMS = {
+    "item_300502", -- Submarine
+    "item_300505",
+    "item_300506",
+    "item_300507",
+    "item_300501",
+}
+
+local function ff7_has_any_item(codes)
+    for _, code in ipairs(codes) do
+        local obj = Tracker:FindObjectForCode(code)
+        if obj and obj.Active then
+            return true
+        end
+    end
+    return false
+end
+
+function ff7_ocean()
+    return ff7_has_any_item(OCEAN_ITEMS) and 1 or 0
+end
+
+function ff7_sub()
+    return ff7_has_any_item(SUB_ITEMS) and 1 or 0
+end
+
+function ff7_lunar_harp()
+    if not ff7_has_any_item(OCEAN_ITEMS) then
+        return 0
+    end
+    return ff7_has_key_item("item_100527") and 1 or 0
+end
+
+function ff7_shinra_basement()
+    if not ff7_has_any_item(OCEAN_ITEMS) then
+        return 0
+    end
+    return ff7_has_key_item("item_100528") and 1 or 0
+end
+
+function ff7_great_glacier()
+    if not ff7_has_any_item(OCEAN_ITEMS) then
+        return 0
+    end
+    if not ff7_has_key_item("item_100546") then
+        return 0
+    end
+    return ff7_has_key_item("item_100540") and 1 or 0
+end
+
+function ff7_gold_saucer()
+    if not ff7_has_any_item(SUB_ITEMS) then
+        return 0
+    end
+    return ff7_has_key_item("item_100537") and 1 or 0
+end
+
+function ff7_key_sector_5()
+    return ff7_has_key_item("item_300503") and 1 or 0
 end
 
 local function set_option_toggle(code, active)
@@ -152,7 +280,8 @@ function apply_slot_data(slot_data)
 
     POOL = {}
     USE_EXACT_POOL = false
-    if not rebuild_pool_from_ap() and not rebuild_pool_from_slot_data(slot_data) then
+    -- slot_data biton_map is the full seed pool; AP missing/checked alone can be incomplete.
+    if not rebuild_pool_from_slot_data(slot_data) and not rebuild_pool_from_ap() then
         POOL = {}
         USE_EXACT_POOL = false
     end

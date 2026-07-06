@@ -10,9 +10,11 @@ from collections import defaultdict
 from pathlib import Path
 
 from logic_rules import (
+    KEY_ITEM_PICKUP_LOCATIONS,
     boss_access_rules,
     build_item_codes,
     build_rule_sets,
+    endgame_item_codes,
     location_extra_rules,
     region_access_rules,
 )
@@ -23,7 +25,12 @@ from map_layout import (
     load_layout,
     standalone_proxy_name,
 )
-from slot_data_export import load_slot_constants, write_logic_pool_lua, write_logic_seed_lua
+from slot_data_export import (
+    load_slot_constants,
+    write_logic_has_item_lua,
+    write_logic_pool_lua,
+    write_logic_seed_lua,
+)
 from world_map_coords import (
     WORLD_MAP_ID,
     WORLD_MAP_IMAGE,
@@ -390,19 +397,19 @@ def build_locations(
             section_name = poptracker_section_name(loc["name"])
             ref = section_ref_target(area, loc["name"])
             proxy_name = standalone_proxy_name(map_def.id, section_name, code, used_proxy_names)
-            world_regions.append(
-                {
-                    "name": proxy_name,
-                    "chest_unopened_img": "images/chest.png",
-                    "chest_opened_img": "images/chest_open.png",
-                    "overlay_background": "#CC000000",
-                    "sections": [{"ref": ref}],
-                    "map_locations": [
-                        {"map": map_def.id, "x": x, "y": y, "size": 18},
-                    ],
-                    "visibility_rules": pool_visibility_rules(code),
-                }
-            )
+            proxy_entry = {
+                "name": proxy_name,
+                "chest_unopened_img": "images/chest.png",
+                "chest_opened_img": "images/chest_open.png",
+                "overlay_background": "#CC000000",
+                "sections": [{"ref": ref}],
+                "map_locations": [
+                    {"map": map_def.id, "x": x, "y": y, "size": 18},
+                ],
+                "access_rules": [[f"@{area}"]],
+                "visibility_rules": pool_visibility_rules(code),
+            }
+            world_regions.append(proxy_entry)
 
     world_payload = {
         "file": "locations/world.json",
@@ -484,6 +491,12 @@ def write_maps(layout: MapLayout) -> list[dict]:
     ]
 
 
+def write_if_missing(path: Path, content: str) -> None:
+    if path.exists():
+        return
+    path.write_text(content, encoding="utf-8")
+
+
 def generate(apworld: Path = DEFAULT_APWORLD) -> None:
     data_dir = apworld / "data"
     items = json.loads((data_dir / "items.json").read_text(encoding="utf-8"))
@@ -544,10 +557,25 @@ def generate(apworld: Path = DEFAULT_APWORLD) -> None:
         "LOCATION_MAPPING",
         location_mapping,
     )
+    key_item_pickups = {
+        item_codes[name]: [loc_id]
+        for name, loc_id in KEY_ITEM_PICKUP_LOCATIONS.items()
+    }
+    key_item_pickup_by_location = {
+        loc_id: int(item_codes[name].removeprefix("item_"))
+        for name, loc_id in KEY_ITEM_PICKUP_LOCATIONS.items()
+    }
     write_logic_seed_lua(
         ROOT / "scripts" / "logic_seed.lua",
         slot_constants,
         location_meta,
+        endgame_item_codes(item_codes),
+        key_item_pickups,
+        key_item_pickup_by_location,
+    )
+    write_logic_has_item_lua(
+        ROOT / "scripts" / "logic_has_item.lua",
+        sorted(key_item_pickups.keys()),
     )
     write_logic_pool_lua(
         ROOT / "scripts" / "logic_pool.lua",
@@ -570,7 +598,10 @@ def generate(apworld: Path = DEFAULT_APWORLD) -> None:
         "min_poptracker_version": "0.25.5",
         "target_poptracker_version": "0.35.1",
     }
-    (ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    write_if_missing(
+        ROOT / "manifest.json",
+        json.dumps(manifest, indent=2) + "\n",
+    )
 
     settings = {
         "smooth_map_scaling": True,
@@ -599,6 +630,8 @@ def generate(apworld: Path = DEFAULT_APWORLD) -> None:
 require("scripts/autotracking/location_mapping")
 
 CUR_INDEX = -1
+RECEIVED_ITEMS = {}
+LAST_SEED_NAME = nil
 
 local function sanitize_section_ref(code)
     if not code or code:sub(1, 1) ~= "@" then
@@ -672,6 +705,24 @@ local function mark_location(code)
     end
 end
 
+local function apply_received_item(item_id)
+    local mapping = ITEM_MAPPING[item_id]
+    if not mapping then
+        return
+    end
+    local tracker_code = mapping[1]
+    local item_type = mapping[2]
+    local obj = Tracker:FindObjectForCode(tracker_code)
+    if not obj then
+        return
+    end
+    if item_type == "toggle" then
+        obj.Active = true
+    elseif item_type == "consumable" then
+        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+    end
+end
+
 local function sync_checked_locations()
     if not Archipelago.CheckedLocations then
         return
@@ -684,7 +735,18 @@ local function sync_checked_locations()
     end
 end
 
+local function sync_received_items()
+    for item_id, _ in pairs(RECEIVED_ITEMS) do
+        apply_received_item(item_id)
+    end
+end
+
 function onClear(slot_data)
+    local seed_name = slot_data and slot_data.seed_name
+    if seed_name and seed_name ~= LAST_SEED_NAME then
+        RECEIVED_ITEMS = {}
+        LAST_SEED_NAME = seed_name
+    end
     CUR_INDEX = -1
     Tracker.BulkUpdate = true
 
@@ -708,6 +770,7 @@ function onClear(slot_data)
         end
     end
 
+    sync_received_items()
     sync_checked_locations()
 
     Tracker.BulkUpdate = false
@@ -718,21 +781,8 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     CUR_INDEX = index
-    local mapping = ITEM_MAPPING[item_id]
-    if not mapping then
-        return
-    end
-    local tracker_code = mapping[1]
-    local item_type = mapping[2]
-    local obj = Tracker:FindObjectForCode(tracker_code)
-    if not obj then
-        return
-    end
-    if item_type == "toggle" then
-        obj.Active = true
-    elseif item_type == "consumable" then
-        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-    end
+    RECEIVED_ITEMS[item_id] = true
+    apply_received_item(item_id)
 end
 
 function onLocation(location_id, location_name)
@@ -808,7 +858,7 @@ Without a connection, visibility falls back to the static option rules above.
 
 Edit `tools/logic_rules.py` / `scripts/logic.lua` and rerun the generator to adjust rules.
 """
-    (ROOT / "README.md").write_text(readme, encoding="utf-8")
+    write_if_missing(ROOT / "README.md", readme)
 
     print(
         f"Generated pack with {len(pop_items)} items and "

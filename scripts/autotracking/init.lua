@@ -2,6 +2,8 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 
 CUR_INDEX = -1
+RECEIVED_ITEMS = {}
+LAST_SEED_NAME = nil
 
 local function sanitize_section_ref(code)
     if not code or code:sub(1, 1) ~= "@" then
@@ -75,6 +77,24 @@ local function mark_location(code)
     end
 end
 
+local function apply_received_item(item_id)
+    local mapping = ITEM_MAPPING[item_id]
+    if not mapping then
+        return
+    end
+    local tracker_code = mapping[1]
+    local item_type = mapping[2]
+    local obj = Tracker:FindObjectForCode(tracker_code)
+    if not obj then
+        return
+    end
+    if item_type == "toggle" then
+        obj.Active = true
+    elseif item_type == "consumable" then
+        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+    end
+end
+
 local function sync_checked_locations()
     if not Archipelago.CheckedLocations then
         return
@@ -87,7 +107,18 @@ local function sync_checked_locations()
     end
 end
 
+local function sync_received_items()
+    for item_id, _ in pairs(RECEIVED_ITEMS) do
+        apply_received_item(item_id)
+    end
+end
+
 function onClear(slot_data)
+    local seed_name = slot_data and slot_data.seed_name
+    if seed_name and seed_name ~= LAST_SEED_NAME then
+        RECEIVED_ITEMS = {}
+        LAST_SEED_NAME = seed_name
+    end
     CUR_INDEX = -1
     Tracker.BulkUpdate = true
 
@@ -111,6 +142,7 @@ function onClear(slot_data)
         end
     end
 
+    sync_received_items()
     sync_checked_locations()
 
     Tracker.BulkUpdate = false
@@ -121,21 +153,8 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     CUR_INDEX = index
-    local mapping = ITEM_MAPPING[item_id]
-    if not mapping then
-        return
-    end
-    local tracker_code = mapping[1]
-    local item_type = mapping[2]
-    local obj = Tracker:FindObjectForCode(tracker_code)
-    if not obj then
-        return
-    end
-    if item_type == "toggle" then
-        obj.Active = true
-    elseif item_type == "consumable" then
-        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-    end
+    RECEIVED_ITEMS[item_id] = true
+    apply_received_item(item_id)
 end
 
 function onLocation(location_id, location_name)
