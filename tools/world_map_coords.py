@@ -6,9 +6,9 @@ MAP_WIDTH = 3200
 MAP_HEIGHT = 2400
 
 REGION_WORLD_COORDS: dict[str, tuple[int, int]] = {
-    "Midgar (Opening)": (1990, 1230),
-    "Midgar (Fields)": (1990, 1280),
-    "Midgar Sector 5": (2040, 1230),
+    "Midgar (Opening)": (1970, 1230),
+    "Midgar (Fields)": (2000, 1260),
+    "Midgar Sector 5": (2000, 1230),
     "Kalm": (2190, 1180),
     "Mythril Mines": (2330, 1620),
     "Chocobo Farm": (2600, 1440),

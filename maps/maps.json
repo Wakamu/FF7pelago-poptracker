@@ -6,6 +6,36 @@
     "img": "images/maps/world.png"
   },
   {
+    "name": "midgar_sector_5",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/midgar_sector_5.png"
+  },
+  {
+    "name": "midgar_sector_6",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/midgar_sector_6.png"
+  },
+  {
+    "name": "midgar_train_graveyard",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/midgar_train_graveyard.png"
+  },
+  {
+    "name": "midgar_sector_7",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/midgar_sector_7.png"
+  },
+  {
+    "name": "midgar_shinra_bldg",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/midgar_shinra_bldg.png"
+  },
+  {
     "name": "kalm",
     "location_size": 16,
     "location_border_thickness": 2,

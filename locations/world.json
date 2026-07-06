@@ -76,75 +76,12 @@
             "$ff7_pool_200014"
           ]
         ]
-      },
-      {
-        "name": "Train Graveyard - Ether",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200003"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Hi-Potion #1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200000"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Hi-Potion #2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200004"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Hi-Potion #3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200007"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Potion #1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200002"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Potion #2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200005"
-          ]
-        ]
-      },
-      {
-        "name": "Train Graveyard - Potion #3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200006"
-          ]
-        ]
       }
     ],
     "map_locations": [
       {
         "map": "world",
-        "x": 1990,
+        "x": 1970,
         "y": 1230,
         "size": 24
       }
@@ -173,27 +110,6 @@
       ],
       [
         "$ff7_pool_200014"
-      ],
-      [
-        "$ff7_pool_200003"
-      ],
-      [
-        "$ff7_pool_200000"
-      ],
-      [
-        "$ff7_pool_200004"
-      ],
-      [
-        "$ff7_pool_200007"
-      ],
-      [
-        "$ff7_pool_200002"
-      ],
-      [
-        "$ff7_pool_200005"
-      ],
-      [
-        "$ff7_pool_200006"
       ]
     ]
   },
@@ -360,8 +276,8 @@
     "map_locations": [
       {
         "map": "world",
-        "x": 1990,
-        "y": 1280,
+        "x": 2000,
+        "y": 1260,
         "size": 24
       }
     ],
@@ -444,209 +360,11 @@
         ]
       },
       {
-        "name": "Corneo Hall,2f. - Hyper",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_300297"
-          ]
-        ]
-      },
-      {
-        "name": "Corneo Hall,2f. - Phoenix Down",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_300029"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - Batteries",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310036"
-          ]
-        ]
-      },
-      {
         "name": "Midgar Sector 5 - Found hidden draw",
         "item_count": 1,
         "visibility_rules": [
           [
             "$ff7_pool_310046"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Bikini briefs",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310066"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Blonde Wig",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310026"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Cologne",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310020"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Cotton Dress",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310027"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Deodorant",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310031"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Diamond Tiara",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310035"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Digestive",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310032"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Disinfectant",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310030"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Dyed Wig",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310025"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Flower Cologne",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310021"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Glass Tiara",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310033"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Lingerie",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310067"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Member's Card",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310010"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Pharmacy Coupon",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310023"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Ruby Tiara",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310034"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Satin Dress",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310028"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Sexy Cologne",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310022"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Silk Dress",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310029"
-          ]
-        ]
-      },
-      {
-        "name": "Midgar Sector 5 - KeyItem: Wig",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_310024"
           ]
         ]
       },
@@ -766,284 +484,14 @@
             "$ff7_pool_320014"
           ]
         ]
-      },
-      {
-        "name": "Sector 6 park - Sense",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200019"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Drug Store - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320008"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Drug Store - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320009"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Drug Store - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320010"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Item - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320004"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Item - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320005"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Item - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320006"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Item - AP Slot 4",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320007"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Pillar - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320026"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Pillar - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320027"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Pillar - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320028"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Weapon - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320000"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Weapon - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320001"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Weapon - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320002"
-          ]
-        ]
-      },
-      {
-        "name": "Sector 7 Weapon - AP Slot 4",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320003"
-          ]
-        ]
-      },
-      {
-        "name": "Sewer - Potion",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_300031"
-          ]
-        ]
-      },
-      {
-        "name": "Sewer - Steal",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_300032"
-          ]
-        ]
-      },
-      {
-        "name": "Shinra HQ - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320029"
-          ]
-        ]
-      },
-      {
-        "name": "Shinra HQ - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320030"
-          ]
-        ]
-      },
-      {
-        "name": "Shinra HQ - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320031"
-          ]
-        ]
-      },
-      {
-        "name": "Shinra HQ - AP Slot 4",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320032"
-          ]
-        ]
-      },
-      {
-        "name": "Torture Room - Ether",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_300030"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Item - AP Slot",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320025"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Item Store - Premium Heart",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200013"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Materia - AP Slot",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320024"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Weapon - AP Slot 1",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320020"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Weapon - AP Slot 2",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320021"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Weapon - AP Slot 3",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320022"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Weapon - AP Slot 4",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_320023"
-          ]
-        ]
-      },
-      {
-        "name": "Wall Market Weapon Store - Sneak Glove",
-        "item_count": 1,
-        "visibility_rules": [
-          [
-            "$ff7_pool_200012"
-          ]
-        ]
       }
     ],
     "map_locations": [
       {
         "map": "world",
-        "x": 2040,
+        "x": 2000,
         "y": 1230,
-        "size": 28
+        "size": 24
       }
     ],
     "access_rules": [
@@ -1062,73 +510,7 @@
         "$ff7_pool_200016"
       ],
       [
-        "$ff7_pool_300297"
-      ],
-      [
-        "$ff7_pool_300029"
-      ],
-      [
-        "$ff7_pool_310036"
-      ],
-      [
         "$ff7_pool_310046"
-      ],
-      [
-        "$ff7_pool_310066"
-      ],
-      [
-        "$ff7_pool_310026"
-      ],
-      [
-        "$ff7_pool_310020"
-      ],
-      [
-        "$ff7_pool_310027"
-      ],
-      [
-        "$ff7_pool_310031"
-      ],
-      [
-        "$ff7_pool_310035"
-      ],
-      [
-        "$ff7_pool_310032"
-      ],
-      [
-        "$ff7_pool_310030"
-      ],
-      [
-        "$ff7_pool_310025"
-      ],
-      [
-        "$ff7_pool_310021"
-      ],
-      [
-        "$ff7_pool_310033"
-      ],
-      [
-        "$ff7_pool_310067"
-      ],
-      [
-        "$ff7_pool_310010"
-      ],
-      [
-        "$ff7_pool_310023"
-      ],
-      [
-        "$ff7_pool_310034"
-      ],
-      [
-        "$ff7_pool_310028"
-      ],
-      [
-        "$ff7_pool_310022"
-      ],
-      [
-        "$ff7_pool_310029"
-      ],
-      [
-        "$ff7_pool_310024"
       ],
       [
         "$ff7_pool_310000"
@@ -1168,96 +550,6 @@
       ],
       [
         "$ff7_pool_320014"
-      ],
-      [
-        "$ff7_pool_200019"
-      ],
-      [
-        "$ff7_pool_320008"
-      ],
-      [
-        "$ff7_pool_320009"
-      ],
-      [
-        "$ff7_pool_320010"
-      ],
-      [
-        "$ff7_pool_320004"
-      ],
-      [
-        "$ff7_pool_320005"
-      ],
-      [
-        "$ff7_pool_320006"
-      ],
-      [
-        "$ff7_pool_320007"
-      ],
-      [
-        "$ff7_pool_320026"
-      ],
-      [
-        "$ff7_pool_320027"
-      ],
-      [
-        "$ff7_pool_320028"
-      ],
-      [
-        "$ff7_pool_320000"
-      ],
-      [
-        "$ff7_pool_320001"
-      ],
-      [
-        "$ff7_pool_320002"
-      ],
-      [
-        "$ff7_pool_320003"
-      ],
-      [
-        "$ff7_pool_300031"
-      ],
-      [
-        "$ff7_pool_300032"
-      ],
-      [
-        "$ff7_pool_320029"
-      ],
-      [
-        "$ff7_pool_320030"
-      ],
-      [
-        "$ff7_pool_320031"
-      ],
-      [
-        "$ff7_pool_320032"
-      ],
-      [
-        "$ff7_pool_300030"
-      ],
-      [
-        "$ff7_pool_320025"
-      ],
-      [
-        "$ff7_pool_200013"
-      ],
-      [
-        "$ff7_pool_320024"
-      ],
-      [
-        "$ff7_pool_320020"
-      ],
-      [
-        "$ff7_pool_320021"
-      ],
-      [
-        "$ff7_pool_320022"
-      ],
-      [
-        "$ff7_pool_320023"
-      ],
-      [
-        "$ff7_pool_200012"
       ]
     ]
   },
@@ -6236,6 +5528,610 @@
     ]
   },
   {
+    "name": "Midgar (Sector 6)",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Corneo Hall,2f. - Hyper",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300297"
+          ]
+        ]
+      },
+      {
+        "name": "Corneo Hall,2f. - Phoenix Down",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300029"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - Batteries",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310036"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Bikini briefs",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310066"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Blonde Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310026"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310020"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Cotton Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310027"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Deodorant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310031"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Diamond Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310035"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Digestive",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310032"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Disinfectant",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310030"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Dyed Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310025"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Flower Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310021"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Glass Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310033"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Lingerie",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310067"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Member's Card",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310010"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Pharmacy Coupon",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310023"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Ruby Tiara",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310034"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Satin Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310028"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Sexy Cologne",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310022"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Silk Dress",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310029"
+          ]
+        ]
+      },
+      {
+        "name": "Midgar Sector 5 - KeyItem: Wig",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_310024"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 6 park - Sense",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200019"
+          ]
+        ]
+      },
+      {
+        "name": "Torture Room - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300030"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Item - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320025"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Item Store - Premium Heart",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200013"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Materia - AP Slot",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320024"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320020"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320021"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320022"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320023"
+          ]
+        ]
+      },
+      {
+        "name": "Wall Market Weapon Store - Sneak Glove",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200012"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2030,
+        "y": 1230,
+        "size": 28
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300503"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300297"
+      ],
+      [
+        "$ff7_pool_300029"
+      ],
+      [
+        "$ff7_pool_310036"
+      ],
+      [
+        "$ff7_pool_310066"
+      ],
+      [
+        "$ff7_pool_310026"
+      ],
+      [
+        "$ff7_pool_310020"
+      ],
+      [
+        "$ff7_pool_310027"
+      ],
+      [
+        "$ff7_pool_310031"
+      ],
+      [
+        "$ff7_pool_310035"
+      ],
+      [
+        "$ff7_pool_310032"
+      ],
+      [
+        "$ff7_pool_310030"
+      ],
+      [
+        "$ff7_pool_310025"
+      ],
+      [
+        "$ff7_pool_310021"
+      ],
+      [
+        "$ff7_pool_310033"
+      ],
+      [
+        "$ff7_pool_310067"
+      ],
+      [
+        "$ff7_pool_310010"
+      ],
+      [
+        "$ff7_pool_310023"
+      ],
+      [
+        "$ff7_pool_310034"
+      ],
+      [
+        "$ff7_pool_310028"
+      ],
+      [
+        "$ff7_pool_310022"
+      ],
+      [
+        "$ff7_pool_310029"
+      ],
+      [
+        "$ff7_pool_310024"
+      ],
+      [
+        "$ff7_pool_200019"
+      ],
+      [
+        "$ff7_pool_300030"
+      ],
+      [
+        "$ff7_pool_320025"
+      ],
+      [
+        "$ff7_pool_200013"
+      ],
+      [
+        "$ff7_pool_320024"
+      ],
+      [
+        "$ff7_pool_320020"
+      ],
+      [
+        "$ff7_pool_320021"
+      ],
+      [
+        "$ff7_pool_320022"
+      ],
+      [
+        "$ff7_pool_320023"
+      ],
+      [
+        "$ff7_pool_200012"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar (Sector 7)",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Sector 7 Drug Store - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320008"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Drug Store - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320009"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Drug Store - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320010"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320004"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320005"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320006"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Item - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320007"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320026"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320027"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Pillar - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320028"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320000"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320001"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320002"
+          ]
+        ]
+      },
+      {
+        "name": "Sector 7 Weapon - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320003"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2060,
+        "y": 1260,
+        "size": 24
+      }
+    ],
+    "access_rules": [
+      [
+        "$ff7_linear"
+      ],
+      [
+        "item_300503"
+      ]
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320008"
+      ],
+      [
+        "$ff7_pool_320009"
+      ],
+      [
+        "$ff7_pool_320010"
+      ],
+      [
+        "$ff7_pool_320004"
+      ],
+      [
+        "$ff7_pool_320005"
+      ],
+      [
+        "$ff7_pool_320006"
+      ],
+      [
+        "$ff7_pool_320007"
+      ],
+      [
+        "$ff7_pool_320026"
+      ],
+      [
+        "$ff7_pool_320027"
+      ],
+      [
+        "$ff7_pool_320028"
+      ],
+      [
+        "$ff7_pool_320000"
+      ],
+      [
+        "$ff7_pool_320001"
+      ],
+      [
+        "$ff7_pool_320002"
+      ],
+      [
+        "$ff7_pool_320003"
+      ]
+    ]
+  },
+  {
     "name": "Midgar (Shinra Bldg.)",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_open.png",
@@ -6582,13 +6478,49 @@
             "$ff7_pool_310078"
           ]
         ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320029"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320030"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320031"
+          ]
+        ]
+      },
+      {
+        "name": "Shinra HQ - AP Slot 4",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_320032"
+          ]
+        ]
       }
     ],
     "map_locations": [
       {
         "map": "world",
-        "x": 2040,
-        "y": 1280,
+        "x": 2060,
+        "y": 1230,
         "size": 28
       }
     ],
@@ -6706,6 +6638,144 @@
       ],
       [
         "$ff7_pool_310078"
+      ],
+      [
+        "$ff7_pool_320029"
+      ],
+      [
+        "$ff7_pool_320030"
+      ],
+      [
+        "$ff7_pool_320031"
+      ],
+      [
+        "$ff7_pool_320032"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar (Train Graveyard)",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "name": "Sewer - Potion",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300031"
+          ]
+        ]
+      },
+      {
+        "name": "Sewer - Steal",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_300032"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Ether",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200003"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200000"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200004"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Hi-Potion #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200007"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #1",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200002"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #2",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200005"
+          ]
+        ]
+      },
+      {
+        "name": "Train Graveyard - Potion #3",
+        "item_count": 1,
+        "visibility_rules": [
+          [
+            "$ff7_pool_200006"
+          ]
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 2030,
+        "y": 1260,
+        "size": 24
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300031"
+      ],
+      [
+        "$ff7_pool_300032"
+      ],
+      [
+        "$ff7_pool_200003"
+      ],
+      [
+        "$ff7_pool_200000"
+      ],
+      [
+        "$ff7_pool_200004"
+      ],
+      [
+        "$ff7_pool_200007"
+      ],
+      [
+        "$ff7_pool_200002"
+      ],
+      [
+        "$ff7_pool_200005"
+      ],
+      [
+        "$ff7_pool_200006"
       ]
     ]
   },
@@ -7328,6 +7398,2694 @@
       ],
       [
         "$ff7_pool_300270"
+      ]
+    ]
+  },
+  {
+    "name": "Aerith's House - Ether [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Aerith's House - Ether"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1557,
+        "y": 625,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200016"
+      ]
+    ]
+  },
+  {
+    "name": "Aerith's House - Cover [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Aerith's House - Cover"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1391,
+        "y": 655,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200017"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 House 2f. - Turbo Ether [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 House 2f. - Turbo Ether"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1760,
+        "y": 840,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300163"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - Found hidden draw [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Midgar Sector 5 - Found hidden draw"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1730,
+        "y": 810,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310046"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - Stole boys 5 gil [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Midgar Sector 5 - Stole boys 5 gil"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1760,
+        "y": 810,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310047"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - Turtle Paradise Flyer #1 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Midgar Sector 5 - Turtle Paradise Flyer #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1667,
+        "y": 769,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310058"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Weapon - AP Slot 1 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Weapon - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 650,
+        "y": 330,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320011"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Weapon - AP Slot 2 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Weapon - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 680,
+        "y": 330,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320012"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Weapon - AP Slot 3 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Weapon - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 650,
+        "y": 360,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320013"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Weapon - AP Slot 4 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Weapon - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 680,
+        "y": 360,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320014"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Item - AP Slot 1 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Item - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1050,
+        "y": 370,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320015"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Item - AP Slot 2 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Item - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1080,
+        "y": 370,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320016"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Item - AP Slot 3 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Item - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1050,
+        "y": 400,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320017"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Item - AP Slot 4 [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Item - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 1080,
+        "y": 400,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320018"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 5 Materia - AP Slot [midgar_sector_5]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar Sector 5/Sector 5 Materia - AP Slot"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_5",
+        "x": 320,
+        "y": 810,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320019"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Weapon Store - Sneak Glove [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Weapon Store - Sneak Glove"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1200,
+        "y": 160,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200012"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Item Store - Premium Heart [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Item Store - Premium Heart"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1160,
+        "y": 840,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200013"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 6 park - Sense [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Sector 6 park - Sense"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 178,
+        "y": 984,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200019"
+      ]
+    ]
+  },
+  {
+    "name": "Corneo Hall,2f. - Phoenix Down [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Corneo Hall,2f. - Phoenix Down"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 658,
+        "y": 154,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300029"
+      ]
+    ]
+  },
+  {
+    "name": "Torture Room - Ether [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Torture Room - Ether"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 77,
+        "y": 377,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300030"
+      ]
+    ]
+  },
+  {
+    "name": "Corneo Hall,2f. - Hyper [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Corneo Hall,2f. - Hyper"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 381,
+        "y": 61,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300297"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Member's Card [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Member's Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 860,
+        "y": 156,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310010"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Cologne [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Cologne"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 490,
+        "y": 390,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310020"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Flower Cologne [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Flower Cologne"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 520,
+        "y": 390,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310021"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Sexy Cologne [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Sexy Cologne"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 550,
+        "y": 390,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310022"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Pharmacy Coupon [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Pharmacy Coupon"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 490,
+        "y": 420,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310023"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Wig [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Wig"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1180,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310024"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Dyed Wig [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Dyed Wig"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1210,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310025"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Blonde Wig [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Blonde Wig"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1240,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310026"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Cotton Dress [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Cotton Dress"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 580,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310027"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Satin Dress [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Satin Dress"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 610,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310028"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Silk Dress [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Silk Dress"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 640,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310029"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Disinfectant [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Disinfectant"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 610,
+        "y": 800,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310030"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Deodorant [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Deodorant"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 640,
+        "y": 800,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310031"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Digestive [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Digestive"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 670,
+        "y": 800,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310032"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Glass Tiara [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Glass Tiara"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1070,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310033"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Ruby Tiara [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Ruby Tiara"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1100,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310034"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Diamond Tiara [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Diamond Tiara"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1130,
+        "y": 570,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310035"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - Batteries [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - Batteries"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1200,
+        "y": 190,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310036"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Bikini briefs [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Bikini briefs"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1400,
+        "y": 750,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310066"
+      ]
+    ]
+  },
+  {
+    "name": "Midgar Sector 5 - KeyItem: Lingerie [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Midgar Sector 5 - KeyItem: Lingerie"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1400,
+        "y": 510,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310067"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Weapon - AP Slot 1 [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Weapon - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1230,
+        "y": 160,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320020"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Weapon - AP Slot 2 [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Weapon - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1260,
+        "y": 160,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320021"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Weapon - AP Slot 3 [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Weapon - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1230,
+        "y": 190,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320022"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Weapon - AP Slot 4 [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Weapon - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1260,
+        "y": 190,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320023"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Materia - AP Slot [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Materia - AP Slot"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1100,
+        "y": 540,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320024"
+      ]
+    ]
+  },
+  {
+    "name": "Wall Market Item - AP Slot [midgar_sector_6]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 6)/Wall Market Item - AP Slot"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_6",
+        "x": 1120,
+        "y": 840,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320025"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Hi-Potion #1 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Hi-Potion #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1269,
+        "y": 751,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200000"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Potion #1 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Potion #1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1281,
+        "y": 613,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200002"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Ether [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Ether"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1151,
+        "y": 373,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200003"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Hi-Potion #2 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Hi-Potion #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1181,
+        "y": 743,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200004"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Potion #2 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Potion #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1287,
+        "y": 463,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200005"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Potion #3 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Potion #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1251,
+        "y": 411,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200006"
+      ]
+    ]
+  },
+  {
+    "name": "Train Graveyard - Hi-Potion #3 [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Train Graveyard - Hi-Potion #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 1429,
+        "y": 163,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200007"
+      ]
+    ]
+  },
+  {
+    "name": "Sewer - Potion [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Sewer - Potion"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 137,
+        "y": 877,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300031"
+      ]
+    ]
+  },
+  {
+    "name": "Sewer - Steal [midgar_train_graveyard]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Train Graveyard)/Sewer - Steal"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_train_graveyard",
+        "x": 463,
+        "y": 909,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300032"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Weapon - AP Slot 1 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Weapon - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1340,
+        "y": 900,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320000"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Weapon - AP Slot 2 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Weapon - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1370,
+        "y": 900,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320001"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Weapon - AP Slot 3 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Weapon - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1340,
+        "y": 930,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320002"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Weapon - AP Slot 4 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Weapon - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1370,
+        "y": 930,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320003"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Item - AP Slot 1 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Item - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 500,
+        "y": 860,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320004"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Item - AP Slot 2 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Item - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 530,
+        "y": 860,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320005"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Item - AP Slot 3 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Item - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 500,
+        "y": 890,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320006"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Item - AP Slot 4 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Item - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 530,
+        "y": 890,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320007"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Drug Store - AP Slot 1 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Drug Store - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 880,
+        "y": 380,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320008"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Drug Store - AP Slot 2 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Drug Store - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 910,
+        "y": 380,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320009"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Drug Store - AP Slot 3 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Drug Store - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 880,
+        "y": 410,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320010"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Pillar - AP Slot 1 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Pillar - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1420,
+        "y": 210,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320026"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Pillar - AP Slot 2 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Pillar - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1450,
+        "y": 210,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320027"
+      ]
+    ]
+  },
+  {
+    "name": "Sector 7 Pillar - AP Slot 3 [midgar_sector_7]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Sector 7)/Sector 7 Pillar - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_sector_7",
+        "x": 1420,
+        "y": 240,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320028"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 64f. - HP Shout [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 64f. - HP Shout"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 920,
+        "y": 20,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_200135"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 2f. Shop - Pile Banger [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 2f. Shop - Pile Banger"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 312,
+        "y": 454,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300007"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 2f. Shop - Master Fist [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 2f. Shop - Master Fist"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 373,
+        "y": 493,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300008"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 62f. - Elemental [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 62f. - Elemental"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 840,
+        "y": 530,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300011"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - Star Pendant [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - Star Pendant"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 840,
+        "y": 280,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300012"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - Four Slots [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - Four Slots"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 920,
+        "y": 280,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300013"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - Hourglass [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - Hourglass"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 800,
+        "y": 360,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300014"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - Grow Lance [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - Grow Lance"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 940,
+        "y": 310,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300016"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - All [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - All"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 880,
+        "y": 300,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300017"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 64f. - Ether [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 64f. - Ether"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 950,
+        "y": 40,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300018"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. Stairs - Elixir [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. Stairs - Elixir"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 31,
+        "y": 541,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300022"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 64f. - Phoenix Down [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 64f. - Phoenix Down"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 920,
+        "y": 60,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300281"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.67f. - Poison #2 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.67f. - Poison #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1244,
+        "y": 462,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300284"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - Potion [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - Potion"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1230,
+        "y": 390,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300285"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. Stairs - Behemoth Horn [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. Stairs - Behemoth Horn"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 139,
+        "y": 744,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300286"
+      ]
+    ]
+  },
+  {
+    "name": "blin61 - Keycard 62 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin61 - Keycard 62"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 980,
+        "y": 790,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_300391"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Midgar parts [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Midgar parts"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1150,
+        "y": 1010,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310002"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Midgar parts #2 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Midgar parts #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1150,
+        "y": 950,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310003"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Midgar parts #3 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Midgar parts #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1180,
+        "y": 950,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310004"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Midgar parts #4 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Midgar parts #4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1150,
+        "y": 980,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310005"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Midgar parts #5 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Midgar parts #5"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1180,
+        "y": 980,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310006"
+      ]
+    ]
+  },
+  {
+    "name": "blin65_1 - KeyItem: Keycard 66 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin65_1 - KeyItem: Keycard 66"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1317,
+        "y": 959,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310007"
+      ]
+    ]
+  },
+  {
+    "name": "blin61 - KeyItem: Keycard 62 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin61 - KeyItem: Keycard 62"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1010,
+        "y": 790,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310008"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 62f. - Can Advance [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 62f. - Can Advance"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 810,
+        "y": 560,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310040"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - KeyItem: KeyCard 68 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - KeyItem: KeyCard 68"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1261,
+        "y": 323,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310041"
+      ]
+    ]
+  },
+  {
+    "name": "blin59 - KeyItem: Keycard 60 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/blin59 - KeyItem: Keycard 60"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 645,
+        "y": 204,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310048"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - Initialized the Machine [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - Initialized the Machine"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 990,
+        "y": 340,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310049"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - KeyItem: A Coupon [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - KeyItem: A Coupon"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 810,
+        "y": 280,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310050"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - KeyItem: B Coupon [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - KeyItem: B Coupon"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 950,
+        "y": 280,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310051"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - KeyItem: C Coupon [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - KeyItem: C Coupon"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 880,
+        "y": 270,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310052"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 64f. - Shinra Gym Special Drink [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 64f. - Shinra Gym Special Drink"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 890,
+        "y": 100,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310053"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 64f. - Mind Source + Speed Source [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 64f. - Mind Source + Speed Source"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 860,
+        "y": 100,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310054"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 62f. - KeyItem: Keycard 65 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 62f. - KeyItem: Keycard 65"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 810,
+        "y": 530,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310055"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg. 63f. - All #2 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg. 63f. - All #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 880,
+        "y": 240,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310056"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - Potion #2 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - Potion #2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1260,
+        "y": 390,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310076"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - Potion #3 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - Potion #3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1330,
+        "y": 350,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310077"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - Potion #4 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - Potion #4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1360,
+        "y": 350,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310078"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra Bldg.68f. - Enemy Skill [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra Bldg.68f. - Enemy Skill"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 1160,
+        "y": 310,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_310079"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra HQ - AP Slot 1 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra HQ - AP Slot 1"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 280,
+        "y": 480,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320029"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra HQ - AP Slot 2 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra HQ - AP Slot 2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 310,
+        "y": 480,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320030"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra HQ - AP Slot 3 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra HQ - AP Slot 3"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 280,
+        "y": 510,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320031"
+      ]
+    ]
+  },
+  {
+    "name": "Shinra HQ - AP Slot 4 [midgar_shinra_bldg]",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "overlay_background": "#CC000000",
+    "sections": [
+      {
+        "ref": "Midgar (Shinra Bldg.)/Shinra HQ - AP Slot 4"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "midgar_shinra_bldg",
+        "x": 310,
+        "y": 510,
+        "size": 18
+      }
+    ],
+    "visibility_rules": [
+      [
+        "$ff7_pool_320032"
       ]
     ]
   },

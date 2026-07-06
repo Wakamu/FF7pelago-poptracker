@@ -185,6 +185,51 @@
         }
       },
       {
+        "title": "Midgar (Sector 5)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "midgar_sector_5"
+          ]
+        }
+      },
+      {
+        "title": "Midgar (Sector 6)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "midgar_sector_6"
+          ]
+        }
+      },
+      {
+        "title": "Midgar (Train Graveyard)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "midgar_train_graveyard"
+          ]
+        }
+      },
+      {
+        "title": "Midgar (Sector 7)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "midgar_sector_7"
+          ]
+        }
+      },
+      {
+        "title": "Midgar (Shinra Bldg.)",
+        "content": {
+          "type": "map",
+          "maps": [
+            "midgar_shinra_bldg"
+          ]
+        }
+      },
+      {
         "title": "Kalm",
         "content": {
           "type": "map",
